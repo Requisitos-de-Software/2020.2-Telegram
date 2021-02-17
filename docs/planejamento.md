@@ -33,7 +33,7 @@
 
 ### 2.3 Política de Branches
 
-![Git Flow Documentação](../assets/planejamento/GitFlowDocumentation.png)
+![Git Flow Documentação](./assets/planejamento/GitFlowDocumentation.png)
 
 <p align="jusitfy"> &emsp;&emsp; O Git Flow do repositório de documentação será tratado da forma mostrada na imagem acima. Para uma mudança chegar a branch master (branch estável) os passos abaixo são seguidos:
 
