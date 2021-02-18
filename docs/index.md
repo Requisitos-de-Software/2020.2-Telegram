@@ -1,8 +1,13 @@
 # Sobre
 
-<div class="logo">
-<img width=200 style="border-radius:50%" src="./assets/planejamento/logos/telegram-logo-with-border.svg.png"/>
+<!-- <div align="center">
+  <img src= "docs/assets/logos/Promobit.png"/>
 </div>
+<br /> -->
+<div align="center">
+  <img width=200 style="border-radius:50%" src="./assets/planejamento/logos/telegram-logo-with-border.svg.png"/>
+</div>
+<br />
 
 Este repositório é destinado ao projeto de Requisitos de Software do Grupo 3, que escolheu o aplicativo Telegram. Ele contém toda a documentação do projeto da disciplina, ministrado pelo professor André Barros, na Universidade de Brasília - Gama, durante o período 2020/2.
 
