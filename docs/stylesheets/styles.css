@@ -3,9 +3,12 @@ img[alt="drawing"] {
   object-fit: cover;
 }
 
-/* .md-typeset table:not([class]) th {
-  background-color: #e8333e;
-} */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
 
 tr:nth-child(odd) {
   background-color: #29c0fb20;
@@ -19,4 +22,9 @@ th {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.md-logo img {
+  border-radius: 50%;
+  border: 1px solid #000000;
 }

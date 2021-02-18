@@ -1,5 +1,9 @@
 # Sobre
 
+<div class="logo">
+<img width=200 style="border-radius:50%" src="./assets/planejamento/logos/telegram-logo-with-border.svg.png"/>
+</div>
+
 Este repositório é destinado ao projeto de Requisitos de Software do Grupo 3, que escolheu o aplicativo Telegram. Ele contém toda a documentação do projeto da disciplina, ministrado pelo professor André Barros, na Universidade de Brasília - Gama, durante o período 2020/2.
 
 O Telegram é um aplicativo de mensagens instantâneas baseado na nuvem. Os usuários podem fazer chamadas com vídeo, enviar mensagens e trocar fotos, vídeos, autocolantes e arquivos de qualquer tipo.

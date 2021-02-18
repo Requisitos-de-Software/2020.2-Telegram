@@ -2,7 +2,7 @@ site_name: Telegram
 theme:
   palette:
     primary: light blue
-  logo: ./assets/planejamento/logos/telegram-logo.webp
+  logo: ./assets/planejamento/logos/telegram-logo-with-border.svg.png
   favicon: ./assets/planejamento/logos/telegram-logo.webp
   name: material
   features:
