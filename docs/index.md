@@ -22,7 +22,7 @@ Este repositório é destinado ao projeto de Requisitos de Software do Grupo 3, 
 
 ## 6. Versionamento
 			
-|Data|Versão|Descrição|Auto|			
+|Data|Versão|Descrição|Autor|			
 |----|------|---------|----|			
 |17/02/2021|1.0|Desenvolvimento do Documento|Lucas Boaventura, Tiago Samuel, Herick Portugues, Ítalo Alves|
 |18/02/2021|1.1|Revisão do Documento|Lorrany Oliveira|
