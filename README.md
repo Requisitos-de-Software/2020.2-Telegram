@@ -6,14 +6,14 @@ Repositório destinado à disciplina de [Requisitos](https://requisitos-de-softw
 
 ## Equipe
 
-| Nome                                                                               | Matrícula  | GitHub                             | Email                        |
-| ---------------------------------------------------------------------------------- | ---------- | ---------------------------------- | ---------------------------- |
-| <img width=100 style="border-radius:50%" src="./assets/integrantes/brenda.jpeg"/>  | 18/0041444 | [@brendavsantos][brenda-github]    | brendasantosv.bs@gmail.com   |
-| <img width=100 style="border-radius:50%" src="./assets/integrantes/herick.jpeg"/>  | 18/0033034 | [@herickport][herick-github]       | herick.portugues@gmail.com   |
-| <img width=100 style="border-radius:50%" src="./assets/integrantes/italo.jpeg"/>   | 18/0113666 | [@alvesitalo][italo-github]        | italooko@gmail.com           |
-| <img width=100 style="border-radius:50%" src="./assets/integrantes/lorrany.jpeg"/> | 18/0113992 | [@lorranyoliveira][lorrany-github] | lolo.souza80@yahoo.com       |
-| <img width=100 style="border-radius:50%" src="./assets/integrantes/lucas.png"/>    | 18/0114093 | [@lboaventura25][lucas-github]     | lucasxboaventura@hotmail.com |
-| <img width=100 style="border-radius:50%" src="./assets/integrantes/tiago.jpeg"/>   | 18/0114689 | [@tsrrodrigues][tiago-github]      | tsrrodrigues@outlook.com     |
+|                                                                                         | Matrícula  | GitHub                             | Email                        |
+| --------------------------------------------------------------------------------------- | ---------- | ---------------------------------- | ---------------------------- |
+| <img width=100 style="border-radius:50%" src="./docs/assets/integrantes/brenda.jpeg"/>  | 18/0041444 | [@brendavsantos][brenda-github]    | brendasantosv.bs@gmail.com   |
+| <img width=100 style="border-radius:50%" src="./docs/assets/integrantes/herick.jpeg"/>  | 18/0033034 | [@herickport][herick-github]       | herick.portugues@gmail.com   |
+| <img width=100 style="border-radius:50%" src="./docs/assets/integrantes/italo.jpeg"/>   | 18/0113666 | [@alvesitalo][italo-github]        | italooko@gmail.com           |
+| <img width=100 style="border-radius:50%" src="./docs/assets/integrantes/lorrany.jpeg"/> | 18/0113992 | [@lorranyoliveira][lorrany-github] | lolo.souza80@yahoo.com       |
+| <img width=100 style="border-radius:50%" src="./docs/assets/integrantes/lucas.png"/>    | 18/0114093 | [@lboaventura25][lucas-github]     | lucasxboaventura@hotmail.com |
+| <img width=100 style="border-radius:50%" src="./docs/assets/integrantes/tiago.jpeg"/>   | 18/0114689 | [@tsrrodrigues][tiago-github]      | tsrrodrigues@outlook.com     |
 
 [brenda-github]: https://github.com/brendavsantos
 [herick-github]: https://github.com/herickport
