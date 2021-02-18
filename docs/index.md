@@ -20,7 +20,7 @@ O Telegram é um aplicativo de mensagens instantâneas baseado na nuvem. Os usu�
 [lorrany-github]: https://github.com/lorranyoliveira
 [tiago-github]: https://github.com/tsrrodrigues
 
-## 6. Versionamento
+## Versionamento
 
 | Data       | Versão | Descrição                    | Autor                                                         |
 | ---------- | ------ | ---------------------------- | ------------------------------------------------------------- |
