@@ -3,13 +3,6 @@ img[alt="drawing"] {
   object-fit: cover;
 }
 
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 3rem;
-}
-
 tr:nth-child(odd) {
   background-color: #29c0fb20;
 }

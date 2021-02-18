@@ -1,5 +1,10 @@
 # Telegram
 
+<div>
+  <center>
+  <img width=200  src="./docs/assets/planejamento/logos/telegram-logo-with-border.svg.png"/>
+</div>
+
 ## Sobre o Projeto
 
 Repositório destinado à disciplina de [Requisitos](https://requisitos-de-software.github.io/2020.2-Telegram/) de Software da Universidade de Brasília acerca do Telegram. Reserva-se a armazenar e apresentar os artefatos e processos desenvolvidos na disciplina, tais como Pré-Rastreablidade, Elicitação, Modelagem, Análise e Pós-Rastreabilidade para que sejam levantados os requisitos não funcionais e funcionais da aplicação.</p>
