@@ -1,0 +1,22 @@
+img[alt="drawing"] {
+  width: 3rem;
+  object-fit: cover;
+}
+
+/* .md-typeset table:not([class]) th {
+  background-color: #e8333e;
+} */
+
+tr:nth-child(odd) {
+  background-color: #29c0fb20;
+}
+
+th {
+  font-weight: bold;
+}
+
+.md-typeset__table table tbody tr {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
