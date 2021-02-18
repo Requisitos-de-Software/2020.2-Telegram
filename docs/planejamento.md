@@ -106,7 +106,7 @@ Exemplo de contribuição feita por mais de um autor:
 
 ## 5. Versionamento
 			
-|Data|Versão|Descrição|Auto|			
+|Data|Versão|Descrição|Autor|			
 |----|------|---------|----|			
 |17/02/2021|1.0|Desenvolvimento do documento de planejamento |Lucas Boaventura, Tiago Samuel, Herick Portugues, Ítalo Alves|
 |18/02/2021|1.1|Revisão do documento de planejamento|Lorrany Oliveira|
