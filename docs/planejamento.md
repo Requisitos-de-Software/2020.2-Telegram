@@ -83,17 +83,17 @@ Para realizar um Pull Request (PR) para o repositório é necessário seguir os 
 
 ## 3. Horários disponíveis dos integrantes
 
-A tabela a seguir mostra os horários diários dos integrantes da equipe, visando o melhor aproveitamento do tempo para possíveis reuniões futuras.
+A tabela a seguir mostra os horários diários dos integrantes da equipe, visando o melhor aproveitamento do tempo para possíveis reuniões futuras.      
+* Relação de Membros     
+1. Brenda Santos
+2. Hérick Portugues
+3. Lucas Boaventura
+4. Tiago Rodrigues
+5. Italo Alves
+6. Lorrany Oliveira        
 
-|Horário| Segunda | Terça |  Quarta |  Quinta |  Sexta  |  Sábado |
-| :---: | :-----: | :---: | :-----: | :-----: | :-----: | :-----: |
-|  8-10 | ocupado |ocupado| ocupado | ocupado | ocupado | ocupado |
-| 10-12 | ocupado |ocupado| ocupado | ocupado | ocupado | ocupado |
-| 12-14 | ocupado |ocupado| ocupado | ocupado | ocupado | ocupado |
-| 14-16 | ocupado |ocupado| ocupado | ocupado | ocupado | ocupado |
-| 16-18 | ocupado |ocupado| ocupado | ocupado | reunião |  livre  |
-| 18-20 | ocupado |ocupado| ocupado | ocupado | ocupado |  livre  |
-| 20-22 |  livre  | livre |  livre  |  livre  |  livre  |  livre  |
+![Legenda da tabela](./assets/planejamento/horarios/legendasHorarios.jpeg)       
+![Tabela de Horarios](./assets/planejamento/horarios/tabelaHorarios.jpeg)
 
 ## 4. Ferramentas
 
