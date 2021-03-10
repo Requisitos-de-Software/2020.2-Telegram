@@ -12,21 +12,21 @@
 A técnica foi aplicada pela integrante do grupo, Lorrany Oliveira, obtendo como resultado a tabela a seguir: 
 |   Número   |                             Requisitos                          | 
 | :-------:  | :-------------------------------------------------------------: | 
-|     1      |   O usuário poderá realizar seu cadastro                        |
-|     2      |   O usuário poderá realizar o login                             | 
-|     3      |   O usuário poderá editar seu perfil                            |
-|     4      |   O usuário poderá visualizar seu perfil                        |
-|     5      |   O usuário poderá adicionar novos contatos                     | 
-|     6      |   O usuário poderá visualizar o perfil de seus contatos         | 
-|     7      |   O usuário poderá mandar mensagem                              |
-|     8      |   O usuário poderá receber mensagem                             | 
-|     9      |   O usuário poderá visualizar mensagem                          |
-|     10     |   O usuário poderá enviar arquivos por mensagem                 |
-|     11     |   O usuário poderá realizar ligação de vídeo em dupla           |
-|     12     |   O usuário poderá realizar ligação de vídeo em grupo           |
-|     13     |   O usuário poderá realizar ligação de áudio em dupla           |
-|     14     |   O usuário poderá realizar ligação de áudio em grupo           |
-|     15     |   O usuário poderá criar grupos                                 |
+|     1      |O usuário poderá realizar seu cadastro                           |
+|     2      |O usuário poderá realizar o login                                | 
+|     3      |O usuário poderá editar seu perfil                               |
+|     4      |O usuário poderá visualizar seu perfil                           |
+|     5      |O usuário poderá adicionar novos contatos                        | 
+|     6      |O usuário poderá visualizar o perfil de seus contatos            | 
+|     7      |O usuário poderá mandar mensagem                                 |
+|     8      |O usuário poderá receber mensagem                                | 
+|     9      |O usuário poderá visualizar mensagem                             |
+|     10     |O usuário poderá enviar arquivos por mensagem                    |
+|     11     |O usuário poderá realizar ligação de vídeo em dupla              |
+|     12     |O usuário poderá realizar ligação de vídeo em grupo              |
+|     13     |O usuário poderá realizar ligação de áudio em dupla              |
+|     14     |O usuário poderá realizar ligação de áudio em grupo              |
+|     15     |O usuário poderá criar grupos                                    |
 
 
 
