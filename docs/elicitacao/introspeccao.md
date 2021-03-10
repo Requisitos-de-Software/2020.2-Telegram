@@ -11,7 +11,7 @@
 ## Resultado
 A técnica foi aplicada pela integrante do grupo, Lorrany Oliveira, obtendo como resultado a tabela a seguir: 
 |   Número   | Requisitos| 
-| :-------:  |:--------: | 
+| :-------:  |:-------- | 
 |     1      |O usuário poderá realizar seu cadastro|
 |     2      |O usuário poderá realizar o login| 
 |     3      |O usuário poderá editar seu perfil|
@@ -27,19 +27,6 @@ A técnica foi aplicada pela integrante do grupo, Lorrany Oliveira, obtendo como
 |     13     |O usuário poderá realizar ligação de áudio em dupla|
 |     14     |O usuário poderá realizar ligação de áudio em grupo|
 |     15     |O usuário poderá criar grupos|
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## Referências Bibliográficas
