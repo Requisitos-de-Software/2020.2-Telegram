@@ -15,5 +15,5 @@
 ## Versionamento
 |   Data   | Versão |        Descrição        |            Autor(es)           |
 | :------: | :----: | :---------------------: | :----------------------------: |
-|03.03.2021|   1.0  |Criação e desenvolvimento do documento|Lorrany|
+|10.03.2021|   1.0  |Criação e desenvolvimento do documento|Lorrany Oliveira|
 |          |        |                         |                                |
