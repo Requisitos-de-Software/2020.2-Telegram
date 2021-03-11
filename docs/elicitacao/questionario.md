@@ -12,28 +12,28 @@
 
 <p> O componente do grupo, Italo, elaborou um pequeno questionário com 8 perguntas, o qual foi disponibilizado para um conjunto de pessoas, segue abaixo o resultado: </p>
 
-# 1- Qual o gênero sexual?
+### 1- Qual o gênero sexual?
 ![](../assets/elicitacao/grafico1.png)
 
-# 2- Qual a idade? 
+### 2- Qual a idade? 
 ![](../assets/elicitacao/grafico2.png)
 
-# 3- Você utiliza o aplicativo Telegram?
+### 3- Você utiliza o aplicativo Telegram?
 ![](../assets/elicitacao/grafico3.png)
 
-# 4- Com qual frequência você utiliza o Telegram?
+### 4- Com qual frequência você utiliza o Telegram?
 ![](../assets/elicitacao/grafico4.png)
 
-# 5- Você utiliza o Telegram para fins de:
+### 5- Você utiliza o Telegram para fins de:
 ![](../assets/elicitacao/grafico5.png)
 
-# 6- Quais dessas funcionalidades você mais utiliza no Telegram?
+### 6- Quais dessas funcionalidades você mais utiliza no Telegram?
 ![](../assets/elicitacao/grafico6.png)
 
-# 7- Quais dessas funcionalidades você já utilizou?
+### 7- Quais dessas funcionalidades você já utilizou?
 ![](../assets/elicitacao/grafico7.png)
 
-# 8- Você acha o Telegram melhor que os aplicativos concorrentes?
+### 8- Você acha o Telegram melhor que os aplicativos concorrentes?
 ![](../assets/elicitacao/grafico8.png)
 
 
