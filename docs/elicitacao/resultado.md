@@ -32,7 +32,7 @@
 | 17 | O sistema deve permitir a utilização e configuração de bots                                      | Análise de Discurso |
 | 18 | O sistema deve permitir a alternância de contas por meio do mesmo dispositivo                    | Análise de Discurso |
 | 19 | O sistema deve permitir o controle da frequência de mensagens que podem ser enviadas nos grupos  | Análise de Discurso |
-| 20 | O usuário deve conseguir ver a confirmação de uma mensagem lida                                  | Brainstorming, Observação |
+| 20 | O usuário deve conseguir ver a confirmação de uma mensagem lida em grupos                        | Brainstorming, Observação |
 | 21 | O usuário deve poder bloquear o acesso ao aplicativo por meio da digital                         | Brainstorming |
 | 22 | O usuário deve poder gerenciar o armazenamento interno ocupado por uma conversa ou grupo         | Brainstorming |
 | 23 | O sistema deve manter o histórico de mensagens do grupo para novos integrantes                   | Entrevista |
@@ -62,9 +62,6 @@
 | 47 | O usuário deve poder bloquear um contato                                                         | Análise de Protocolo |
 | 48 | O usuário deve poder editar um contato                                                           | Análise de Protocolo |
 | 49 | O usuário deve poder apagar um contato                                                           | Análise de Protocolo |
-| 50 | O usuário deve poder adicionar contato à tela inicial                                            | Análise de Protocolo |
-| 51 | O usuário deve poder bloquear o acesso ao aplicativo por meio da digital                         | Brainstorming |
-| 52 | O usuário deve poder gerenciar o armazenamento interno ocupado por uma conversa ou grupo         | Brainstorming |
 
 ## Versionamento
 |   Data   | Versão |        Descrição              |            Autor(es)            |
