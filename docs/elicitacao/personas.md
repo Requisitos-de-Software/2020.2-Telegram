@@ -12,7 +12,7 @@
 
 ### **Persona:** Bruno Saito, Engenheiro de Software
 
-<img src="../assets/elicitacao/persona1.png" alt="persona2" width="250">
+<img src="../../assets/elicitacao/persona1.png" alt="persona1" width="250">
 
 - Idade: 37 anos
 - Sexo: Masculino
@@ -26,7 +26,7 @@
 
 ### **Persona:** Leticia Gomes, Estagiária de Computação
 
-<img src="../assets/elicitacao/persona2.png" alt="persona2" width="250">
+<img src="../../assets/elicitacao/persona2.png" alt="persona2" width="250">
 
 - Idade: 22 anos
 - Sexo: Feminino
@@ -40,7 +40,7 @@
 
 ### **Persona:** Pedro Henrique, Estudante de Direito
 
-<img src="../assets/elicitacao/persona3.png" alt="persona2" width="250">
+<img src="../../assets/elicitacao/persona3.png" alt="persona3" width="250">
 
 - Idade: 18 anos
 - Sexo: Masculino
@@ -54,7 +54,7 @@
 
 ### **Antipersona:** Claudia Diaz, Arquiteta Aposentada
 
-<img src="../assets/elicitacao/antipersona.png" alt="persona2" width="250">
+<img src="../../assets/elicitacao/antipersona.png" alt="antipersona" width="250">
 
 - Idade: 52 anos
 - Sexo: Feminino
