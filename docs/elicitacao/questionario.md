@@ -61,6 +61,19 @@
 
 <figcaption>Figura 8. Imagem que contém o gráfico de respostas da 8ª pergunta.</figcaption>
 
+<p>&emsp;A partir das respostas obtidas do questionário, pode concluir que que o telegram é utilizado para diversos fins, mas o uso é maior em relação ao estudo, sendo a mensagem de texto a funcionalidade mais essencial e importante para os usuários.</p>
+
+| Número  |         Requisito         |
+|:------: | :------------------------ |
+|1| O usuário deve poder enviar mensagens de texto|
+|2| O usuário deve poder visualizar mensagens de texto|
+|3| O usuário deve poder anexar arquivos|
+|4| O usuário deve poder enviar imagens|
+|5| O usuário deve poder receber imagens|
+|6| O usuário deve poder enviar vídeos|
+|7| O usuário deve poder receber vídeos|
+
+
 ## Referências Bibliográficas
 
 - VALQUEZ, Carlos Eduardo; SIMÕES, Guilherme Siqueira. Engenharia de Requisitos.
