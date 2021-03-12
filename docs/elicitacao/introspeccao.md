@@ -2,7 +2,7 @@
 
 ## Metodologia
 
-<p>&emsp; Existem várias técnicas de elicitação de requisitos, sendo a instropecção uma delas. A instropecção é uma tecnica em que há o uso da imaginação, pois é ela que irá ajudar a levantar os requisitos que o sistema deverá ter. O desenvolvedor deverá imaginar o que ele gostaria que o sistema tivesse caso ele fosse utilizá-lo, e com a resposta desse pensamento, ele deverá anotar os requisitos. </p>
+<p>&emsp; Existem diversas técnicas que podem ser utilizadas para realizar o processo de elicitação de requisitos, sendo a instropecção uma das principais. A característica fundamental da técnica é a utilização da imaginação, pois é ela que auxiliará o processo de levantamento dos requisitos que o sistema deverá possuir. O desenvolvedor deverá imaginar o que ele gostaria que o sistema tivesse caso ele fosse utilizá-lo, e com a resposta desse pensamento, deverá listar os prováveis requisitos. </p>
 
 ## Participantes
 
@@ -12,7 +12,7 @@
 
 A técnica foi aplicada pela integrante do grupo, Lorrany Oliveira, obtendo como resultado a tabela a seguir:
 
-| Número | Requisitos                                            |
+| Número |                       Requisitos                      |
 | :----: | :---------------------------------------------------- |
 |   1    | O usuário poderá realizar seu cadastro                |
 |   2    | O usuário poderá realizar o login                     |
@@ -32,11 +32,13 @@ A técnica foi aplicada pela integrante do grupo, Lorrany Oliveira, obtendo como
 
 ## Referências Bibliográficas
 
-- DESCONHECIDO. Elicitação de Requisitos. Disponível em <http://www2.dbd.puc-rio.br/pergamum/tesesabertas/0521479_08_cap_02.pdf> Acesso: 10/03/2021.
+- DESCONHECIDO. Elicitação de Requisitos. Disponível em <http://www2.dbd.puc-rio.br/pergamum/tesesabertas/0521479_08_cap_02.pdf> 
 
 ## Versionamento
 
-|    Data    | Versão |                    Descrição                    |    Autor(es)     |
-| :--------: | :----: | :---------------------------------------------: | :--------------: |
-| 10.03.2021 |  1.0   |     Criação e desenvolvimento do documento      | Lorrany Oliveira |
-| 11.03.2021 |  2.0   | Revisa o documento e acerta algumas formatações | Lucas Boaventura |
+|    Data    | Versão |                    Descrição                        |    Autor(es)     |
+| :--------: | :----: | :-----------------------------------------------:   | :--------------: |
+| 10.03.2021 |  1.0   |       Criação e desenvolvimento do documento        | Lorrany Oliveira |
+| 11.03.2021 |  2.0   | Revisa o documento e acerta algumas formatações     | Lucas Boaventura |
+| 11.03.2021 |  2.1   |   Ajusta detalhe na bibliografia e revisa texto     |   Brenda Santos  |
+
