@@ -8,6 +8,7 @@ A técnica Análise de Protocolo pede ao stakeholder envolvido em determinado pr
 
 ## Escopo
 Para melhor aplicação desta técnica foi definida um escopo de atividades a serem realizadas pelo participante. Essas atividades cobrem as funcionalides de envio de mensagens de todos os tipos para um único destinatário, não incluindo mensagens em grupo, chamadas e outras funcionalidades do aplicativo. As atividades são:
+
 * Criar um novo chat
 * Enviar mensagens de todos os formatos diferentes para este chat
 
