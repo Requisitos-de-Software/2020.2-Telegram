@@ -3,7 +3,7 @@
 |        |                   |  
 | -------  |  :------------------------------------|
 |**Título** | Visualizar suas conversas |
-|**Objetivo** | Conseguir sisualizar suas conversas|
+|**Objetivo** | Conseguir visualizar suas conversas|
 |**Contexto** |**Pré-condição**: Estar logado no Telegram;<br>**Pós-condição**: Ter visualizado a conversa.|
 |**Atores**   | - Usuário;<br> - Sistema.       | 
 |**Recursos** | Acesso a internet|
