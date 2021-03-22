@@ -8,30 +8,53 @@
   - Lorrany Oliveira
 
 
-[Cenário 26 - Encontrar pessoas próximas](cenario26.md)
-[Cenário 27 - Realizar cadastro](cenario27.md)
-[Cenário 28 - Realizar login](cenario28.md)
-[Cenário 29 - Editar perfil](cenario29.md)
-[Cenário 30 - Visualizar perfil](cenario30.md)
-[Cenário 31 - Adicionar novos contatos](cenario31.md)
-[Cenário 32 - Visualizar perfil dos contatos](cenario32.md)
-[Cenário 33 - Responder uma mensagem enviada em um grupo no privado da pessoa que a enviou](cenario33.md)
-[Cenário 34 - Salvar as mensagens de uma conversa em específico](cenario34.md)
-[Cenário 35 - Compartilhar localização](cenario35.md)
-[Cenário 36 - Visualizar conversas](cenario36.md)
-[Cenário 37 - Acessar conversas](cenario37.md)
-[Cenário 38 - Criar nova conversa](cenario38.md)
-[Cenário 39 - Criar um chat secreto](cenario39.md)
-[Cenário 40 - Visualizar contatos online](cenario40.md)
-[Cenário 41 - Procurar contatos](cenario41.md)
-[Cenário 42 - Ordenar contatos](cenario42.md)
-[Cenário 43 - Compartilhar um contato](cenario43.md)
-[Cenário 44 - Enviar uma música](cenario44.md)
-[Cenário 45 - Desativar notificações](cenario45.md)
-[Cenário 46 - Visualizar grupos que possui em comum com um contato](cenario46.md)
-[Cenário 47 - Bloquear um contato](cenario47.md)
-[Cenário 48 - Editar um contato](cenario48.md)
-[Cenário 49 - Apagar um contato](cenario49.md)
+[Cenário 26 - Encontrar pessoas próximas](cenario26.md) <br>
+
+[Cenário 27 - Realizar cadastro](cenario27.md)<br>
+
+[Cenário 28 - Realizar login](cenario28.md)<br>
+
+[Cenário 29 - Editar perfil](cenario29.md)<br>
+
+[Cenário 30 - Visualizar perfil](cenario30.md)<br>
+
+[Cenário 31 - Adicionar novos contatos](cenario31.md)<br>
+
+[Cenário 32 - Visualizar perfil dos contatos](cenario32.md)<br>
+
+[Cenário 33 - Responder uma mensagem enviada em um grupo no privado da pessoa que a enviou](cenario33.md)<br>
+
+[Cenário 34 - Salvar as mensagens de uma conversa em específico](cenario34.md)<br>
+
+[Cenário 35 - Compartilhar localização](cenario35.md)<br>
+
+[Cenário 36 - Visualizar conversas](cenario36.md)<br>
+
+[Cenário 37 - Acessar conversas](cenario37.md)<br>
+
+[Cenário 38 - Criar nova conversa](cenario38.md)<br>
+
+[Cenário 39 - Criar um chat secreto](cenario39.md)<br>
+
+[Cenário 40 - Visualizar contatos online](cenario40.md)<br>
+
+[Cenário 41 - Procurar contatos](cenario41.md)<br>
+
+[Cenário 42 - Ordenar contatos](cenario42.md)<br>
+
+[Cenário 43 - Compartilhar um contato](cenario43.md)<br>
+
+[Cenário 44 - Enviar uma música](cenario44.md)<br>
+
+[Cenário 45 - Desativar notificações](cenario45.md)<br>
+
+[Cenário 46 - Visualizar grupos que possui em comum com um contato](cenario46.md)<br>
+
+[Cenário 47 - Bloquear um contato](cenario47.md)<br>
+
+[Cenário 48 - Editar um contato](cenario48.md)<br>
+
+[Cenário 49 - Apagar um contato](cenario49.md)<br>
 
 
 
