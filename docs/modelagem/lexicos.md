@@ -1,12 +1,10 @@
 # Léxicos
 ## Introdução
-O processo de criação de requisitos de um sistema pode ser dividido em três grandes atividades: Elicitação, modelagem e análise. Ao longo da etapa de elicitação, a concepção do produto e de seus domínios são diretamente influenciada pelos clientes, usuários e diversos outros profissionais de diferentes áreas, tornando assim mais fácil a ocorrência da utilização de termos técnicos e expressões específicas que podem facilmente ser interpretadas de formas diferentes pelos leitores. A criação de léxico tem como principal objetivo a necessidade de que todos os participantes do processo de desenvolvimento do produto compartilhem da mesma compreensão sobre os termos próprios da aplicação, e, além de ser uma exigêcia de processos de qualidade, servem também de fonte de consulta para os participantes envolvidos na engenharia de requisitos. O método utilizado para a identificação de símbolos para o léxico é dirigida ao **Léxico Ampliado da Linguagem (LAL)**, onde cada símbolo é descrito com noção(o que significa o símbolo), impacto(descrição de efeito dos símbolos na aplicação ou vice-versa) e um tipo(verbo, objeto ou estado). Sendo assim, os léxicos serão padronizados com a utilização da tabela abaixo:
+<p align='justify'> &emsp;O processo de criação de requisitos de um sistema pode ser dividido em três grandes atividades: Elicitação, modelagem e análise. Ao longo da etapa de elicitação, a concepção do produto e de seus domínios são diretamente influenciada pelos clientes, usuários e diversos outros profissionais de diferentes áreas, tornando assim mais fácil a ocorrência da utilização de termos técnicos e expressões específicas que podem facilmente ser interpretadas de formas diferentes pelos leitores. A criação de léxico tem como principal objetivo a necessidade de que todos os participantes do processo de desenvolvimento do produto compartilhem da mesma compreensão sobre os termos próprios da aplicação, e, além de ser uma exigêcia de processos de qualidade, servem também de fonte de consulta para os participantes envolvidos na engenharia de requisitos. O método utilizado para a identificação de símbolos para o léxico é dirigida ao <strong>Léxico Ampliado da Linguagem (LAL)</strong>, onde cada símbolo é descrito com noção(o que significa o símbolo), impacto(descrição de efeito dos símbolos na aplicação ou vice-versa) e um tipo(verbo, objeto ou estado). Sendo assim, os léxicos serão padronizados com a utilização da tabela abaixo:</p>
 
 |   Classificação   |  Noção  | Impacto | Sinônimos |
 | :---------------: | :-----: | :-----: | :-------: |
 |Objeto/Estado/Verbo|Denotação|Conotação| Opcional  |
-
-Migo ve se os lexicos que eu pensei fazem sentido 
 
 ## Léxicos 
 #### L1 - **Mensagens Salvas**
@@ -76,4 +74,5 @@ Migo ve se os lexicos que eu pensei fazem sentido
 ## Versionamento
 |   Data     | Versão |              Descrição                 |   Autor(es)   |
 | :--------: | :----: | :------------------------------------: | :-----------: |
-| 21/02/2021 |  1.0   | Criação e desenvolvimento do documento | Brenda Santos |
+| 21/03/2021 |  1.0   | Criação e desenvolvimento do documento | Brenda Santos |
+| 22/03/2021 |  2.0   | Revisa e formata documento | Lucas Boaventura |
