@@ -1,0 +1,12 @@
+# Cenário 17 - Gerenciar o armazenamento interno ocupado por uma conversa ou grupo
+
+|                |                                                                                                                                                                                                                           |
+| -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Título**     | Gerenciar o armazenamento interno ocupado por uma conversa ou grupo                                                                                                                                                       |
+| **Objetivo**   | Gerenciar o armazenamento interno ocupado pelo app da melhor maneira.                                                                                                                                                     |
+| **Contexto**   | **Pré-condição**: Estar logado no Telegram;<br>**Pós-condição**: O gerenciamento do armazenamento interno.                                                                                                                |
+| **Atores**     | 1 - Usuário;<br> 2 - Sistema.                                                                                                                                                                                             |
+| **Recursos**   | Acesso a internet.                                                                                                                                                                                                        |
+| **Episódios**  | 1 - Abrir o aplicativo Telegram; <br> 2 - Clicar nas 3 barras do canto superior esquerdo e depois em "Configurações"; <br>3 - Tocar em "Uso do Armazenamento"; <br> 4 - Verificar espaço ocupado por conversas ou grupos. |
+| **Restrições** | Ter armazenamento interno.                                                                                                                                                                                                |
+| **Exceção**    | 1 - Não ter conta no Telegram;<br> 2 - Não ter conversas.                                                                                                                                                                 |

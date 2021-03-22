@@ -1,12 +1,63 @@
 # Cenários
+
 ## Metodologia
 
  <p>&emsp;Cenário funciona como um tipo de tática, para poder compreender melhor como funciona a interação entre o usuário e o sistema. Os cenários abaixo foram desenvolvidos a partir dos requisitos elicitados: </p>
 
 ## Participantes
-  - Ítalo Alves
-  - Lorrany Oliveira
 
+- Ítalo Alves
+- Lorrany Oliveira
+
+[Cenário 01 - Enviar ou receber mensagens de texto](cenario01.md) <br>
+
+[Cenário 02 - Enviar ou receber mensagens de áudio](cenario02.md) <br>
+
+[Cenário 03 - Enviar ou receber arquivos de imagem da galeria](cenario03.md) <br>
+
+[Cenário 04 - Enviar ou receber arquivos de imagem capturados na hora](cenario04.md) <br>
+
+[Cenário 05 - Enviar ou receber arquivos de vídeo da galeria](cenario05.md) <br>
+
+[Cenário 06 - Enviar ou receber arquivos de vídeo gravados na hora](cenario06.md) <br>
+
+[Cenário 07 - Realizar chamadas de voz individuais](cenario07.md) <br>
+
+[Cenário 08 - Realizar chamadas de voz em grupo ](cenario08.md) <br>
+
+[Cenário 09 - Realizar chamadas de vídeo individuais](cenario09.md) <br>
+
+[Cenário 10 - Realizar chamadas de vídeo em grupo](cenario10.md) <br>
+
+[Cenário 11 - Criar grupos de mensagens](cenario11.md) <br>
+
+[Cenário 12 - Criar enquetes](cenario12.md) <br>
+
+[Cenário 13 - Salvar mensagens](cenario13.md) <br>
+
+[Cenário 14 - Encaminhar mensagens](cenario14.md) <br>
+
+[Cenário 15 - Excluir mensagens enviadas](cenario15.md) <br>
+
+[Cenário 16 - Enviar ou receber arquivos](cenario16.md) <br>
+
+[Cenário 17 - Utilização e configuração de bots](cenario17.md) <br>
+
+[Cenário 18 - Alternância de contas por meio do mesmo dispositivo](cenario18.md) <br>
+
+[Cenário 19 - Controle da frequência de mensagens que podem ser enviadas nos grupos](cenario19.md) <br>
+
+[Cenário 20 - Confirmação de uma mensagem lida em grupos](cenario20.md) <br>
+
+[Cenário 21 - Bloquear o acesso ao aplicativo por meio da digital](cenario21.md) <br>
+
+[Cenário 22 - Gerenciar o armazenamento interno ocupado por uma conversa ou grupo](cenario22.md) <br>
+
+[Cenário 23 - Manter o histórico de mensagens do grupo para novos integrantes](cenario23.md) <br>
+
+[Cenário 24 - Divisão dos chats em pastas](cenario24.md) <br>
+
+[Cenário 25 - Manter os arquivos e mensagens salvos na "nuvem"](cenario25.md) <br>
 
 [Cenário 26 - Encontrar pessoas próximas](cenario26.md) <br>
 
@@ -56,13 +107,13 @@
 
 [Cenário 49 - Apagar um contato](cenario49.md)<br>
 
-
-
 ## Referências Bibliográficas
 
 - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 10;
 
 ## Versionamento
-|   Data   | Versão |        Descrição              |            Autor(es)           |
-| :------: | :----: |    :---------------------:    | :----------------------------: |
-|21.03.2021|   1.0  |  Criação do documento         | Lorrany Oliveira e Italo Alves |
+
+|    Data    | Versão |        Descrição        |           Autor(es)            |
+| :--------: | :----: | :---------------------: | :----------------------------: |
+| 21.03.2021 |  1.0   |  Criação do documento   | Lorrany Oliveira e Ítalo Alves |
+| 22.03.2021 |  2.0   | Adição de mais cenários |          Ítalo Alves           |
