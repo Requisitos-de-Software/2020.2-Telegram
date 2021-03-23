@@ -17,6 +17,16 @@ th {
   align-items: center;
 }
 
+.md-typeset__scrollwrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.md-typeset__table {
+  width: auto;
+}
+
 .md-logo img {
   border-radius: 50%;
   border: 1px solid #000000;

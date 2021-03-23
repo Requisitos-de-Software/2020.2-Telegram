@@ -1,0 +1,12 @@
+# Cenário 25 - Manter os arquivos e mensagens salvos na "nuvem"
+
+|                |                                                                                                                                                                                                                           |
+| -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Título**     | Manter os arquivos e mensagens salvos na "nuvem"                                                                                                                                                                          |
+| **Objetivo**   | Manter o backup dos arquivos e mensagens salvos no servidor do Telegram                                                                                                                                                   |
+| **Contexto**   | **Pré-condição**: Estar logado no Telegram;<br>**Pós-condição**: O usuário terá as mensagens salvas na nuvem ao invés do celular.                                                                                         |
+| **Atores**     | 1 - Usuário;<br> 2 - Sistema.                                                                                                                                                                                             |
+| **Recursos**   | Acesso a internet                                                                                                                                                                                                         |
+| **Episódios**  | 1 - Abrir o aplicativo Telegram; <br> 2 - Clicar nas 3 barras do canto superior esquerdo e depois em "Configurações"; <br>3 - Tocar em "Uso do Armazenamento"; <br> 4 - Verificar espaço ocupado por conversas ou grupos. |
+| **Restrições** | As conversas não são baixadas, apenas os arquivos.                                                                                                                                                                        |
+| **Exceção**    | 1 - Não ter conta no Telegram;<br> 2 - Não ter acesso à internet.                                                                                                                                                         |
