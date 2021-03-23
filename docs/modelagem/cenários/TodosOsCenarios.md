@@ -113,3 +113,4 @@
 | 21.03.2021 |  1.0   |  Criação do documento   | Lorrany Oliveira e Ítalo Alves |
 | 22.03.2021 |  2.0   | Adição de mais cenários |          Ítalo Alves           |
 | 22.03.2021 |  3.0   | Revisa documento |         Lucas Boaventura           |
+| 23.03.2021 |  3.0   | Revisa documento |         Tiago Samuel           |
