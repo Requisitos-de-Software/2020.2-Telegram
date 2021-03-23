@@ -4,11 +4,6 @@
 
  <p>&emsp;Cenário funciona como um tipo de tática, para poder compreender melhor como funciona a interação entre o usuário e o sistema. Os cenários abaixo foram desenvolvidos a partir dos requisitos elicitados: </p>
 
-## Participantes
-
-- Ítalo Alves
-- Lorrany Oliveira
-
 [Cenário 01 - Enviar ou receber mensagens de texto](cenario01.md) <br>
 
 [Cenário 02 - Enviar ou receber mensagens de áudio](cenario02.md) <br>
@@ -117,3 +112,4 @@
 | :--------: | :----: | :---------------------: | :----------------------------: |
 | 21.03.2021 |  1.0   |  Criação do documento   | Lorrany Oliveira e Ítalo Alves |
 | 22.03.2021 |  2.0   | Adição de mais cenários |          Ítalo Alves           |
+| 22.03.2021 |  3.0   | Revisa documento |         Lucas Boaventura           |
