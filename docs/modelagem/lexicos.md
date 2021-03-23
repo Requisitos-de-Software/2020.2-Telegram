@@ -76,3 +76,4 @@
 | :--------: | :----: | :------------------------------------: | :-----------: |
 | 21/03/2021 |  1.0   | Criação e desenvolvimento do documento | Brenda Santos |
 | 22/03/2021 |  2.0   | Revisa e formata documento | Lucas Boaventura |
+| 23/03/2021 |  2.0   | Revisão do Documento | Tiago Samuel |
