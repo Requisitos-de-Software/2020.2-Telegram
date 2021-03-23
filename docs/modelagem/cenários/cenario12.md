@@ -8,5 +8,5 @@
 | **Atores**     | 1 - Usuário;<br> 2 - Sistema.                                                                                                          |
 | **Recursos**   | Acesso a internet                                                                                                                      |
 | **Episódios**  | 1 - Abrir o aplicativo Telegram; <br>2 - Clique em um grupo; <br>3 - Clicar no ícone de anexo; <br>4 - Tocar em "Enquete" e criar uma. |
-| **Restrições** | Não ter bloqueado ou sido bloqueado pelo outro usuário.                                                                                |
+| **Restrições** | Ter bloqueado ou sido bloqueado pelo outro usuário.                                                                                    |
 | **Exceção**    | 1 - Não ter conta no Telegram;<br> 2 - Não ter acesso à internet.                                                                      |
