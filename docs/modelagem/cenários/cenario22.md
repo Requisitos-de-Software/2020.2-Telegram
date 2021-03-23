@@ -1,4 +1,4 @@
-# Cenário 17 - Gerenciar o armazenamento interno ocupado por uma conversa ou grupo
+# Cenário 22 - Gerenciar o armazenamento interno ocupado por uma conversa ou grupo
 
 |                |                                                                                                                                                                                                                           |
 | -------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
