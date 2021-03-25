@@ -7,6 +7,7 @@
 
 #### UC01 - Enviar Mensagem
 ![UC01](../assets/modelagem/uc01_mensagens.png)
+<figcaption>Figura 1. Imagem que ilustra o Casos de Uso ao enviar mensagem.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -21,6 +22,7 @@
 
 #### UC02 - Criar/Participar de Grupo
 ![UC01](../assets/modelagem/uc02_grupos.png)
+<figcaption>Figura 1. Imagem que ilustra o Casos de Uso ao criar/participar de umgrupo.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -35,6 +37,7 @@
 
 #### UC03 - Configurações
 ![UC01](../assets/modelagem/uc03_configuracoes.png)
+<figcaption>Figura 1. Imagem que ilustra o Casos de Uso ao acessar as configurações do aplicativo.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -49,6 +52,7 @@
 
 #### UC04 - Visualizar Pessoas Próximas
 ![UC01](../assets/modelagem/uc04_pessoas_proximas.png)
+<figcaption>Figura 1. Imagem que ilustra o Casos de Uso ao visualizar pessoas próximas.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -67,5 +71,6 @@
 ## Versionamento
 |   Data     | Versão |        Descrição             |     Autor(es)    |
 | :--------: | :----: | :--------------------------: | :--------------: |
-| 24/03/2021 |  1.0   | Criação dos Casos de Uso     | Hérick Portugues |
-| 25/03/2021 |  2.0   | Desenvolvimento do documento | Hérick Portugues |
+| 24/03/2021 |  0.1   | Criação dos Casos de Uso     | Hérick Portugues |
+| 25/03/2021 |  1.0   | Desenvolvimento do documento | Hérick Portugues |
+| 25/03/2021 |  2.0   | Revisão do documento e adição de descrição das imagens | Lucas Boaventura |
