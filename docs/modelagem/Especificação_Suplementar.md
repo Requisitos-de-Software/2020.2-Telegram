@@ -12,7 +12,7 @@
 ### 1.2. Escopo
 <p align='justify'>&emsp; O telegram é um aplicativo para troca de mensagens entre usuários. Existem vários tipos de mensagens dentro do aplicativo e também é possível realizar chamadas e alguns outros requisitos. </p>
 
-## Metodologia
+## 1.3 Metodologia
 <p align='justify'> &emsp; A metodologia utilizada será o método FURPS+, que é um modelo para classificação de atributos de qualidade de software.</p>
 
 * F - Funcionality (Funcionalidade)<br/>
@@ -139,4 +139,5 @@ Os requisitos de suportabilidade agrupam várias características, tais como: te
 
 | Data       | Versão | Descrição                                    | Autor                                                         |
 | ---------- | ------ | -------------------------------------------- | ------------------------------------------------------------- |
-| 21/02/2021 | 1.0    | Desenvolvimento do documento de especificação suplementar | Lucas Boaventura e Tiago Samuel |
+| 21/03/2021 | 1.0    | Desenvolvimento do documento de especificação suplementar | Lucas Boaventura e Tiago Samuel |
+| 30/03/2021 | 2.0    | Arruma numeração dos tópicos do documento | Lucas Boaventura |
