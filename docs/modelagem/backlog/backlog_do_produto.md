@@ -6,10 +6,10 @@
 - [Perfil](../docs/modelagem/backlog/epico_perfil.md) 
 - Contatos
 - Chamadas
-- Chat
+- [Chat](../docs/modelagem/backlog/epico_chat.md)
 - Mensagens
 - Pessoas Próximas
-- Configurações
+- [Configurações](../docs/modelagem/backlog/epico_configuracoes.md)
     
 ## Histórias
 
@@ -18,6 +18,24 @@
 |  ID | Eu, como usuário gostaria de...|    Para poder...      | Prioridade |
 | :-: | :----------------------------: | :-------------------: | :--------: |
 | US01| Me cadastrar na aplicação      | Utilizar o aplicativo |    Must    |
+
+### Épico Contatos
+
+
+### Épico Chamadas
+
+
+### Épico Chat
+
+
+### Épico Mensagens
+
+
+### Épico Pessoas Próximas
+
+
+### Épico Configurações
+
 
 ## Referências
 
