@@ -44,6 +44,23 @@
 | US  |      Arquivar conversas        | Ocultar a visualização de chats sem deletar |  Should    |
 
 ### Épico Mensagens
+|  ID | Eu, como usuário gostaria de...|    Para poder...      | Prioridade |
+| :-: | :---------------------------- | :------------------- | :--------: |
+| US01| Enviar/Receber mensagem de texto  | Trocar mensagens de texto          |    Must   |
+| US02| Enviar/Receber mensagem de áudio  | Trocar mensagens de áudio          |    Must   |
+| US03| Enviar/Receber arquivos de imagem da galeria | Trocar arquivos de imagem da galeria|    Must    |
+| US04| Enviar/Receber arquivos de imagem capturados na hora | Trocar arquivos de imagem capturados na hora |  Could   |
+| US05| Enviar/Receber arquivos de vídeo da galeria | Trocar arquivos de vídeo da galeria |    Must    |
+| US06| Enviar/Receber arquivos de vídeo gravados na hora | Trocar arquivos de vídeo gravados na hora|    Could    |
+| US07| Criar grupos de mensagens | Trocar mensagens em grupo |    Must    |
+| US08| Criar enquetes | Realizar enquetes|    Could    |
+| US09| Salvar mensagens | Visualizar determinada mensagem depois |    Could   |
+| US10| Encaminhar mensagens | Espelhar mensagem sem precisar copiá-la |    Should    |
+| US11| Excluir mensagens enviadas | Apagá-la em caso de arrependimento |    Should    |
+| US12| Enviar/Receber arquivos | Trocar arquivos |    Must   |
+| US13| Responder uma mensagem enviada num grupo no privado da pessoa que a enviou| Responde-la com mais privacidade | Could|
+| US14| Salvar e visualizar as mensagens salvas de uma conversa em específico | Para poder visualizá-la depois de forma mais fácil |    Won't    |
+| US15| Enviar/Receber uma música | Trocar músicas |    Could    |
 
 
 ### Épico Pessoas Próximas
