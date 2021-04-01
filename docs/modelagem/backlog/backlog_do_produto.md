@@ -26,8 +26,8 @@
 
 
 ### Épico Chat
-|  ID | Eu, como usuário gostaria de...|    Para poder...      | Prioridade |
-| :-: | :----------------------------: | :-------------------: | :--------: |
+|  ID | Eu, como usuário gostaria de...|              Para poder...                  | Prioridade |
+| :-: | :----------------------------- | :------------------------------------------ | :--------: |
 | US  |   Iniciar uma nova conversa    |    Trocar mensagens com outros usuários     |    Must    |
 | US  |        Criar um grupo          |  Trocar mensagens com um grupo de usuários  |    Must    |
 | US  |   Criar um novo canal de voz   | Enviar mensagens a diversos usuários de uma só vez |    Must    |
