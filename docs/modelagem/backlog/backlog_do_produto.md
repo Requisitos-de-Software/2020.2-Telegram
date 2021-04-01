@@ -5,9 +5,9 @@
 ## Épicos
 - [Perfil](../docs/modelagem/backlog/epico_perfil.md) 
 - Contatos
-- [Chamadas](../docs/modelagem/backlog/epico_chamada.md)
+- [Chamadas](epico_chamada.md)
 - [Chat](../docs/modelagem/backlog/epico_chat.md)
-- [Mensagens](../docs/modelagem/backlog/epico_mensagens.md)
+- [Mensagens](epico_mensagens.md)
 - Pessoas Próximas
 - [Configurações](../docs/modelagem/backlog/epico_configuracoes.md)
     
