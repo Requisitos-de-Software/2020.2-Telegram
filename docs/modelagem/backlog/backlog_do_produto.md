@@ -85,6 +85,8 @@
 
 ## Versionamento
 
-| Data       | Versão | Descrição                  | Autor(es)              |
-| ---------- | ------ | -------------------------- | ---------------------- |
-| 30/03/2021 | 1.0    | Criação do documento       |Brenda, Herick e Lorrany|
+| Data       | Versão |                Descrição                | Autor(es)              |
+| ---------- | ------ | --------------------------------------- | ---------------------- |
+| 30/03/2021 | 1.0    |          Criação do documento           |Brenda, Herick e Lorrany|
+| 01/04/2021 | 1.1    | Adicionando epicos chat e configurações |         Brenda         |
+| 01/04/2021 | 1.2    | Adicionando epicos mensagens e chamadas |         Lorrany        |
