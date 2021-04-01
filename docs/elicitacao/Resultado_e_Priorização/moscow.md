@@ -21,55 +21,58 @@
 
 | Número |                                            Requisito                                            | MoSCoW |
 | :----: | :---------------------------------------------------------------------------------------------: | :----: |
-|   1    |                     O usuário deve poder enviar/receber mensagens de texto                      |  Must  |
-|   2    |                     O usuário deve poder enviar/receber mensagens de áudio                      |  Must  |
-|   3    |                O usuário deve poder enviar/receber arquivos de imagem da galeria                |  Must  |
-|   4    |            O usuário deve poder enviar/receber arquivos de imagem capturados na hora            | Could  |
-|   5    |                O usuário deve poder enviar/receber arquivos de vídeo da galeria                 |  Must  |
-|   6    |             O usuário deve poder enviar/receber arquivos de vídeo gravados na hora              | Could  |
-|   7    |                    O usuário deve poder realizar chamadas de voz individuais                    | Should |
-|   8    |                     O usuário deve poder realizar chamadas de voz em grupo                      | Won't  |
-|   9    |                   O usuário deve poder realizar chamadas de vídeo individuais                   | Should |
-|   10   |                    O usuário deve poder realizar chamadas de vídeo em grupo                     | Won't  |
-|   11   |                         O usuário deve poder criar grupos de mensagens                          |  Must  |
-|   12   |                               O usuário deve poder criar enquetes                               | Could  |
-|   13   |                              O usuário deve poder salvar mensagens                              | Could  |
-|   14   |                            O usuário deve poder encaminhar mensagens                            | Should |
-|   15   |                         O usuário deve poder excluir mensagens enviadas                         | Should |
-|   16   |                          O usuário deve poder enviar/receber arquivos                           |  Must  |
-|   17   |                   O sistema deve permitir a utilização e configuração de bots                   | Could  |
-|   18   |          O sistema deve permitir a alternância de contas por meio do mesmo dispositivo          | Could  |
-|   19   | O sistema deve permitir o controle da frequência de mensagens que podem ser enviadas nos grupos | Could  |
-|   20   |            O usuário deve conseguir ver a confirmação de uma mensagem lida em grupos            | Won't  |
-|   21   |            O usuário deve poder bloquear o acesso ao aplicativo por meio da digital             | Won't  |
-|   22   |    O usuário deve poder gerenciar o armazenamento interno ocupado por uma conversa ou grupo     | Won't  |
-|   23   |         O sistema deve manter o histórico de mensagens do grupo para novos integrantes          | Could  |
-|   24   |                      O sistema deve permitir a divisão dos chats em pastas                      | Could  |
-|   25   |                 O sistema deve manter os arquivos e mensagens salvos na "nuvem"                 |  Must  |
-|   26   |         O usuário deve poder encontrar pessoas próximas à ele que utilizam o aplicativo         | Could  |
-|   27   |                     O usuário deve poder realizar o cadastro no aplicativo                      |  Must  |
-|   28   |                       O usuário deve poder realizar o login no aplicativo                       |  Must  |
-|   29   |                             O usuário deve poder editar seu perfil                              |  Must  |
-|   30   |                           O usuário deve poder visualizar seu perfil                            |  Must  |
-|   31   |                          O usuário deve poder adicionar novos contatos                          |  Must  |
-|   32   |                    O usuário deve poder visualizar o perfil de seus contatos                    | Should |
-|   33   | O usuário deve poder responder uma mensagem enviada num grupo no privado da pessoa que a enviou | Could  |
-|   34   |   O usuário deve poder salvar e visualizar as mensagens salvas de uma conversa em específico    | Won't  |
-|   35   |                        O usuário deve poder compartilhar sua localização                        | Should |
-|   36   |                    O usuário deve poder visualizar suas conversas existentes                    |  Must  |
-|   37   |                        O usuário deve poder acessar conversas existentes                        |  Must  |
-|   38   |                          O usuário deve poder criar uma nova conversa                           |  Must  |
-|   39   |                           O usuário deve poder criar um chat secreto                            | Could  |
-|   40   |                         O usuário deve poder visualizar contatos online                         | Could  |
-|   41   |                             O usuário deve poder procurar contatos                              |  Must  |
-|   42   |                            O usuário deve poder ordenar os contatos                             | Should |
-|   43   |                          O usuário deve poder compartilhar um contato                           | Could  |
-|   44   |                         O usuário deve poder enviar/receber uma música                          | Could  |
-|   45   |                     O usuário deve poder desativar notificações do contato                      | Should |
-|   46   |               O usuário deve poder ver grupos que possui em comum com um contato                | Should |
-|   47   |                            O usuário deve poder bloquear um contato                             |  Must  |
-|   48   |                             O usuário deve poder editar um contato                              |  Must  |
-|   49   |                             O usuário deve poder apagar um contato                              |  Must  |
+|  RF1   |                     O usuário deve poder enviar/receber mensagens de texto                      |  Must  |
+|  RF2   |                     O usuário deve poder enviar/receber mensagens de áudio                      |  Must  |
+|  RF3   |                O usuário deve poder enviar/receber arquivos de imagem da galeria                |  Must  |
+|  RF4   |            O usuário deve poder enviar/receber arquivos de imagem capturados na hora            | Could  |
+|  RF5   |                O usuário deve poder enviar/receber arquivos de vídeo da galeria                 |  Must  |
+|  RF6   |             O usuário deve poder enviar/receber arquivos de vídeo gravados na hora              | Could  |
+|  RF7   |                    O usuário deve poder realizar chamadas de voz individuais                    | Should |
+|  RF8   |                     O usuário deve poder realizar chamadas de voz em grupo                      | Won't  |
+|  RF9   |                   O usuário deve poder realizar chamadas de vídeo individuais                   | Should |
+|  RF10  |                    O usuário deve poder realizar chamadas de vídeo em grupo                     | Won't  |
+|  RF11  |                         O usuário deve poder criar grupos de mensagens                          |  Must  |
+|  RF12  |                               O usuário deve poder criar enquetes                               | Could  |
+|  RF13  |                              O usuário deve poder salvar mensagens                              | Could  |
+|  RF14  |                            O usuário deve poder encaminhar mensagens                            | Should |
+|  RF15  |                         O usuário deve poder excluir mensagens enviadas                         | Should |
+|  RF16  |                          O usuário deve poder enviar/receber arquivos                           |  Must  |
+|  RF17  |                   O sistema deve permitir a utilização e configuração de bots                   | Could  |
+|  RF18  |          O sistema deve permitir a alternância de contas por meio do mesmo dispositivo          | Could  |
+|  RF19  | O sistema deve permitir o controle da frequência de mensagens que podem ser enviadas nos grupos | Could  |
+|  RF20  |            O usuário deve conseguir ver a confirmação de uma mensagem lida em grupos            | Won't  |
+|  RF21  |            O usuário deve poder bloquear o acesso ao aplicativo por meio da digital             | Won't  |
+|  RF22  |    O usuário deve poder gerenciar o armazenamento interno ocupado por uma conversa ou grupo     | Won't  |
+|  RF23  |         O sistema deve manter o histórico de mensagens do grupo para novos integrantes          | Could  |
+|  RF24  |                      O sistema deve permitir a divisão dos chats em pastas                      | Could  |
+|  RF25  |                 O sistema deve manter os arquivos e mensagens salvos na "nuvem"                 |  Must  |
+|  RF26  |         O usuário deve poder encontrar pessoas próximas à ele que utilizam o aplicativo         | Could  |
+|  RF27  |                     O usuário deve poder realizar o cadastro no aplicativo                      |  Must  |
+|  RF28  |                       O usuário deve poder realizar o login no aplicativo                       |  Must  |
+|  RF29  |                             O usuário deve poder editar seu perfil                              |  Must  |
+|  RF30  |                           O usuário deve poder visualizar seu perfil                            |  Must  |
+|  RF31  |                          O usuário deve poder adicionar novos contatos                          |  Must  |
+|  RF32  |                    O usuário deve poder visualizar o perfil de seus contatos                    | Should |
+|  RF33  | O usuário deve poder responder uma mensagem enviada num grupo no privado da pessoa que a enviou | Could  |
+|  RF34  |   O usuário deve poder salvar e visualizar as mensagens salvas de uma conversa em específico    | Won't  |
+|  RF35  |                        O usuário deve poder compartilhar sua localização                        | Should |
+|  RF36  |                    O usuário deve poder visualizar suas conversas existentes                    |  Must  |
+|  RF37  |                        O usuário deve poder acessar conversas existentes                        |  Must  |
+|  RF38  |                          O usuário deve poder criar uma nova conversa                           |  Must  |
+|  RF39  |                           O usuário deve poder criar um chat secreto                            | Could  |
+|  RF40  |                         O usuário deve poder visualizar contatos online                         | Could  |
+|  RF41  |                             O usuário deve poder procurar contatos                              |  Must  |
+|  RF42  |                            O usuário deve poder visualizar e ordenar todos os contatos                              | Should |
+|  RF43  |                          O usuário deve poder compartilhar um contato                           | Could  |
+|  RF44  |                         O usuário deve poder enviar/receber uma música                          | Could  |
+|  RF45  |                     O usuário deve poder desativar notificações do contato                      | Should |
+|  RF46  |               O usuário deve poder ver grupos que possui em comum com um contato                | Should |
+|  RF47  |                            O usuário deve poder bloquear um contato                             |  Must  |
+|  RF48  |                             O usuário deve poder editar um contato                              |  Must  |
+|  RF49  |                             O usuário deve poder apagar um contato                              |  Must  |
+|  RF50  |                      O usuário deve poder convidar amigos para o aplicativo                     | Should |
+|  RF51  |                     O usuário deve poder ficar visível para pessoas próximas                    | Should |
+|  RF52  |                      O usuário deve poder criar/participar de grupos locais                     | Should |
 
 ## Bibliografia
 
@@ -81,3 +84,4 @@
 | :--------: | :----: | :-----------------------------------------------------------: | :---------------------------------: |
 | 12.03.2021 |  1.0   |       Priorização dos requisitos e criação do documento       | Hérick Portugues e Lorrany Oliveira |
 | 12.03.2021 |  2.0   | Revisa o documento e formata alguns termos chave do documento |          Lucas Boaventura           |
+| 01.04.2021 |  2.1   |                 Atualiza tabela de requisitos                 |          Hérick Portugues            |
