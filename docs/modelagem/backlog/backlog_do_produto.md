@@ -25,7 +25,7 @@
 ### Épico Chamadas
 
 |  ID | Eu, como usuário gostaria de...|    Para poder...      | Prioridade |
-| :-: | :----------------------------: | :-------------------: | :--------: |
+| :-: | :---------------------------- | :------------------- | :--------: |
 | US01| Realizar chamadas de voz individuais   | Conversar por meio de chamada de voz com uma pessoa           |    Should   |
 | US02| Realizar chamadas de voz em grupo      | Conversar por meio de chamada de voz com mais de uma pessoa   |    Won't    |
 | US03| Realizar chamadas de vídeo individuais | Conversar por meio de chamada de vídeo com uma pessoa         |    Should   |
