@@ -1,7 +1,7 @@
 # EP02: Épico Contatos
 
 ## US07: Adicionar Contato
-Eu, como usuário, gostaria de adicionar novos contatos, para poder interagir com eles no aplicativo.
+<p> &emsp; Eu, como usuário, gostaria de adicionar novos contatos, para poder interagir com eles no aplicativo.</p>
 
 ### Critérios de Aceitação:
 - Deve possuir um botão para adicionar contatos
@@ -9,7 +9,7 @@ Eu, como usuário, gostaria de adicionar novos contatos, para poder interagir co
 - Deve salvar as informações do contato salvo
 
 ## US08: Visualizar Contatos
-Eu, como usuário, gostaria de visualizar meus contatos, para poder verificar os contatos adicionados.
+<p> &emsp; Eu, como usuário, gostaria de visualizar meus contatos, para poder verificar os contatos adicionados.</p>
 
 ### Critérios de Aceitação:
 - Deve listar os contatos adicionados
@@ -17,7 +17,7 @@ Eu, como usuário, gostaria de visualizar meus contatos, para poder verificar os
 - Deve poder clicar em um contato e ser direcionado para sua tela de mensagens
 
 ## US09: Visualizar Perfil de um Contato
-Eu, como usuário, gostaria de visualizar o perfil de um contato, para poder conferir as informações cadastradas.
+<p> &emsp; Eu, como usuário, gostaria de visualizar o perfil de um contato, para poder conferir as informações cadastradas.</p>
 
 ### Critérios de Aceitação:
 - Deve ser possível acessar o perfil de um contato ao selecioná-lo
@@ -25,7 +25,7 @@ Eu, como usuário, gostaria de visualizar o perfil de um contato, para poder con
 - Deve mostrar as mídias trocadas entre o usuário e seu contato
 
 ## US10: Editar Contato
-Eu, como usuário, gostaria de editar um contato, para poder alterar as informações cadastradas.
+<p> &emsp; Eu, como usuário, gostaria de editar um contato, para poder alterar as informações cadastradas.</p>
 
 ### Critérios de Aceitação:
 - Deve ser possível alterar o nome e sobrenome de um contato
@@ -33,7 +33,7 @@ Eu, como usuário, gostaria de editar um contato, para poder alterar as informa�
 - Deve salvar as informações alteradas
 
 ## US11: Apagar Contato
-Eu, como usuário, gostaria de apagar um contato, para poder retirar da minha lista de contatos.
+<p> &emsp; Eu, como usuário, gostaria de apagar um contato, para poder retirar da minha lista de contatos.</p>
 
 ### Critérios de Aceitação:
 - Deve possuir uma opção de apagar na tela de perfil do contato
@@ -41,7 +41,7 @@ Eu, como usuário, gostaria de apagar um contato, para poder retirar da minha li
 - Deve salvar a remoção e não listá-lo na lista de contatos
 
 ## US12: Bloquear Contato
-Eu, como usuário, gostaria de bloquear um contato, para poder evitar interação com ele no aplicativo.
+<p> &emsp; Eu, como usuário, gostaria de bloquear um contato, para poder evitar interação com ele no aplicativo.</p>
 
 ### Critérios de Aceitação:
 - Deve possuir uma opção de bloqueio na tela de perfil do contato
@@ -49,7 +49,7 @@ Eu, como usuário, gostaria de bloquear um contato, para poder evitar interaçã
 - Deve impedir a interação entre o usuário e o contato bloqueado no aplicativo
 
 ## US13: Convidar amigos
-Eu, como usuário, gostaria de convidar amigos para o aplicativo, para poder adicionar aos meus contatos.
+<p> &emsp; Eu, como usuário, gostaria de convidar amigos para o aplicativo, para poder adicionar aos meus contatos.</p>
 
 ### Critérios de Aceitação:
 - Deve possuir uma opção de convidar amigos na tela de listar os contatos

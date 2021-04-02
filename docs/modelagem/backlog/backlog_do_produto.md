@@ -110,7 +110,7 @@
 | US54  |      Alterar o idioma de exibição do aplicativo       | Ter a possibilidade de testar outros idiomas na aplicação |    Must    | RF61 |
 | US55  |         Editar e gerenciar pacotes de stickers        | Gerenciar ou remover pacotes de stickers |    Could    | RF62 |
 
-## Referências
+## Referências Bibliográficas
 - WIEGERS, Karl; BEATTY, Joy. "Software Requirements". Microsoft Press, 2013.
 
 ## Versionamento
@@ -122,3 +122,4 @@
 | 01/04/2021 |   1.2  |         Adição dos épicos mensagens e chamadas          |         Lorrany         |
 | 01/04/2021 |   1.3  |  Adição dos épicos perfil, contatos e pessoas próximas  |    Hérick Portugues     |
 | 01/04/2021 |   1.4  |            Revisão e correções no documento             |Brenda, Herick e Lorrany |
+| 02/04/2021 |   2.0  |            Revisa o documentos e corrigi referências e formatação           |Lucas Boaventura |
