@@ -1,60 +1,60 @@
-# Épico Chat
+# EP04: Épico Chat
 
-## US Iniciar uma nova conversa
-Eu, como usuário, gostaria de Iniciar uma nova conversa para poder Trocar mensagens com outros usuários
+## US18 Iniciar uma nova conversa
+Eu, como usuário, gostaria de iniciar uma nova conversa, para poder trocar mensagens com outros usuários
     
 ### Critérios de Aceitação
 - Deve conter um botão de nova mensagem
 - Deve mostrar os contatos existentes
 - Deve conter um serviço de troca de mensagens
 
-## US Criar um grupo
-Eu, como usuário, gostaria de Criar um grupo para poder Trocar mensagens com um grupo de usuários
+## US19 Criar um grupo
+Eu, como usuário, gostaria de criar um grupo, para poder trocar mensagens com um grupo de usuários
 
 ### Critérios de Aceitação
 - Deve conter um botão de criar novo grupo
 - Deve permitir a seleção dos usuários que farão parte do grupo
 - Deve permitir a escolha do ícone e do nome do grupo
 
-## US Criar um novo canal de voz
-Eu, como usuário, gostaria de Criar um novo canal de voz para poder Enviar mensagens a diversos usuários de uma só vez
+## US20 Criar um novo canal de voz
+Eu, como usuário, gostaria de criar um novo canal de voz, para poder enviar mensagens a diversos usuários de uma só vez
     
 ### Critérios de Aceitação
 - Deve conter um botão de criar novo canal de voz
 - Deve permitir a seleção dos usuários que farão parte do canal
 - Deve permitir a escolha do ícone e da descrição do canal
 
-## US Pesquisar mensagens
-Eu, como usuário, gostaria de Pesquisar mensagens para poder Encontrar mensagens específicas
+## US21 Pesquisar mensagens
+Eu, como usuário, gostaria de pesquisar mensagens, para poder encontrar mensagens específicas
     
 ### Critérios de Aceitação
 - Deve conter uma barra de pesquisa
 - Deve mostrar mensagens baseado no texto inserido na barra
 
-## US Pesquisar usuários
-Eu, como usuário, gostaria de Pesquisar usuários para poder Encontrar usuários do aplicativo
+## US22 Pesquisar usuários
+Eu, como usuário, gostaria de pesquisar usuários, para poder encontrar usuários do aplicativo
     
 ### Critérios de Aceitação
 - Deve conter uma barra de pesquisa
 - Deve mostrar usuários baseado no texto inserido na barra
 
-## US Apagar conversas
-Eu, como usuário, gostaria de Apagar conversas para poder Gerenciar meus chats
+## US23 Apagar conversas
+Eu, como usuário, gostaria de apagar conversas, para poder gerenciar meus chats
     
 ### Critérios de Aceitação
 - Deve conter um botão para apagar a conversa
 - Deve solicitar uma confirmação se o usuário realmente deseja apagar a conversa
 - Deve apagar a convera após a confirmação
 
-## US Fixar conversas
-Eu, como usuário, gostaria de Fixar conversas para poder Priorizar a visualização de chats
+## US24 Fixar conversas
+Eu, como usuário, gostaria de fixar conversas, para poder priorizar a visualização de chats
     
 ### Critérios de Aceitação
 - Deve conter um botão de fixar conversa
 - Deve fixar corretamente a conversa selecionada
 
-## US Arquivar conversas
-Eu, como usuário, gostaria de Arquivar conversas para poder Ocultar a visualização de chats sem deletar
+## US25 Arquivar conversas
+Eu, como usuário, gostaria de arquivar conversas, para poder ocultar a visualização de chats sem deletar
     
 ### Critérios de Aceitação
 - Deve conter um botão de arquivar conversa
