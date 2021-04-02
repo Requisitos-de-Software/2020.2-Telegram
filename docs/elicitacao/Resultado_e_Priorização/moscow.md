@@ -62,7 +62,7 @@
 |  RF39  |                           O usuário deve poder criar um chat secreto                            | Could  |
 |  RF40  |                         O usuário deve poder visualizar contatos online                         | Could  |
 |  RF41  |                             O usuário deve poder procurar contatos                              |  Must  |
-|  RF42  |                            O usuário deve poder visualizar e ordenar todos os contatos                              | Should |
+|  RF42  |                   O usuário deve poder visualizar e ordenar todos os contatos                   | Should |
 |  RF43  |                          O usuário deve poder compartilhar um contato                           | Could  |
 |  RF44  |                         O usuário deve poder enviar/receber uma música                          | Could  |
 |  RF45  |                     O usuário deve poder desativar notificações do contato                      | Should |
@@ -73,6 +73,16 @@
 |  RF50  |                      O usuário deve poder convidar amigos para o aplicativo                     | Should |
 |  RF51  |                     O usuário deve poder ficar visível para pessoas próximas                    | Should |
 |  RF52  |                      O usuário deve poder criar/participar de grupos locais                     | Should |
+|  RF53  |                         O usuário deve poder criar canais de voz locais                         |  Must  |
+|  RF54  |                             O usuário deve poder apagar conversas                               |  Must  |
+|  RF55  |                          O usuário deve poder fixar conversas locais                            | Should |
+|  RF56  |                         O usuário deve poder arquivar conversas locais                          | Should |
+|  RF57  |                   O usuário deve poder alterar a visualização da aba de chamadas                |  Must  |
+|  RF58  |             O usuário deve poder alterar as configurações de privacidade e segurança            | Should |
+|  RF59  |              O usuário deve poder alterar as configurações de dados e armazenamento             | Should |
+|  RF60  |                   O usuário deve poder alterar as configurações de aparência                    | Could  |
+|  RF61  |                O usuário deve poder alterar o idioma de exibição do aplicativo                  |  Must  |
+|  RF62  |                  O usuário deve poder editar e gerenciar pacotes de stickers                    | Could  | 
 
 ## Bibliografia
 
@@ -84,4 +94,5 @@
 | :--------: | :----: | :-----------------------------------------------------------: | :---------------------------------: |
 | 12.03.2021 |  1.0   |       Priorização dos requisitos e criação do documento       | Hérick Portugues e Lorrany Oliveira |
 | 12.03.2021 |  2.0   | Revisa o documento e formata alguns termos chave do documento |          Lucas Boaventura           |
-| 01.04.2021 |  2.1   |                 Atualiza tabela de requisitos                 |          Hérick Portugues            |
+| 01.04.2021 |  2.1   |                 Atualiza tabela de requisitos                 |          Hérick Portugues           |
+| 01.04.2021 |  2.2   |                   Adiciona novos requisitos                   |          Hérick Portugues           |
