@@ -6,7 +6,7 @@
 <br /> -->
 <div>
   <center>
-  <img width=200  src="./assets/planejamento/logos/telegram-logo-with-border.svg.png"/>
+  <img alt="Telegram" width=200  src="./assets/planejamento/logos/telegram-logo-with-border.svg.png"/>
 </div>
 </br>
 
@@ -16,12 +16,12 @@ O Telegram é um aplicativo de mensagens instantâneas baseado na nuvem. Os usu�
 
 |                                        Foto                                        |       Nome       |               GitHub               |            E-mail            |
 | :--------------------------------------------------------------------------------: | :--------------: | :--------------------------------: | :--------------------------: |
-| <img width=100 style="border-radius:50%" src="./assets/integrantes/brenda.jpeg"/>  |  Brenda Santos   |  [@brendavsantos][brenda-github]   |  brendasantosv.bs@gmail.com  |
-| <img width=100 style="border-radius:50%" src="./assets/integrantes/herick.jpeg"/>  | Herick Portugues |    [@herickport][herick-github]    |  herick.portugues@gmail.com  |
-|  <img width=100 style="border-radius:50%" src="./assets/integrantes/italo.jpeg"/>  |   Italo Alves    |    [@alvesitalo][italo-github]     |      italooko@gmail.com      |
-| <img width=100 style="border-radius:50%" src="./assets/integrantes/lorrany.jpeg"/> | Lorrany Oliveira | [@lorranyoliveira][lorrany-github] |    lolo.souza80@yahoo.com    |
-|  <img width=100 style="border-radius:50%" src="./assets/integrantes/lucas.png"/>   | Lucas Boaventura |   [@lboaventura25][lucas-github]   | lucasxboaventura@hotmail.com |
-|  <img width=100 style="border-radius:50%" src="./assets/integrantes/tiago.jpeg"/>  | Tiago Rodrigues  |   [@tsrrodrigues][tiago-github]    |   tsrrodrigues@outlook.com   |
+| <img alt="Participante" width=100 style="border-radius:50%" src="./assets/integrantes/brenda.jpeg"/>  |  Brenda Santos   |  [@brendavsantos][brenda-github]   |  brendasantosv.bs@gmail.com  |
+| <img alt="Participante" width=100 style="border-radius:50%" src="./assets/integrantes/herick.jpeg"/>  | Herick Portugues |    [@herickport][herick-github]    |  herick.portugues@gmail.com  |
+|  <img alt="Participante" width=100 style="border-radius:50%" src="./assets/integrantes/italo.jpeg"/>  |   Italo Alves    |    [@alvesitalo][italo-github]     |      italooko@gmail.com      |
+| <img alt="Participante" width=100 style="border-radius:50%" src="./assets/integrantes/lorrany.jpeg"/> | Lorrany Oliveira | [@lorranyoliveira][lorrany-github] |    lolo.souza80@yahoo.com    |
+|  <img alt="Participante" width=100 style="border-radius:50%" src="./assets/integrantes/lucas.png"/>   | Lucas Boaventura |   [@lboaventura25][lucas-github]   | lucasxboaventura@hotmail.com |
+|  <img alt="Participante" width=100 style="border-radius:50%" src="./assets/integrantes/tiago.jpeg"/>  | Tiago Rodrigues  |   [@tsrrodrigues][tiago-github]    |   tsrrodrigues@outlook.com   |
 
 [brenda-github]: https://github.com/brendavsantos
 [herick-github]: https://github.com/herickport
