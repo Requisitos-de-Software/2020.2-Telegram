@@ -2,7 +2,7 @@
 
 ## Técnica utilizada
 Técnica de Leitura Check-List.<br/>
-O documento verificado está disponível [aqui](http://localhost:8000/pre_rastreabilidade/rich_picture/).
+O documento verificado está disponível [aqui](https://requisitos-de-software.github.io/2020.2-Telegram/pre_rastreabilidade/rich_picture/).
 
 ## Checklist
 Esse é o check-list que servirá de base para a inspeção das Rich Pictures.
