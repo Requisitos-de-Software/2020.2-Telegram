@@ -364,9 +364,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C27 - Realizar cadastro no aplicativo
 
@@ -378,9 +386,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C28 - Realizar login no aplicativo
 
@@ -392,9 +408,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C29 Editar perfil
 
@@ -406,9 +430,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C30 - Visualizar perfil
 
@@ -420,9 +452,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C31 - Adicionar novos contatos
 
@@ -434,9 +474,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C32 - Visualizar o perfil dos seus contatos
 
@@ -448,9 +496,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C33 - Responder uma mensagem enviada num grupo no privado da pessoa que a enviou
 
@@ -462,9 +518,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C34 - Salvar e visualizar as mensagens salvas de uma conversa em específico
 
@@ -476,9 +540,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C35 - Compartilhar localização
 
@@ -490,9 +562,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C36 - Visualizar suas conversas
 
@@ -504,9 +584,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C37 - Acessar suas conversas
 
@@ -518,9 +606,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C38 - Criar nova conversa
 
@@ -532,9 +628,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C39 - Criar chat secreto
 
@@ -546,9 +650,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C40 - Visualizar contato online
 
@@ -560,9 +672,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C41 - Procurar contatos
 
@@ -574,9 +694,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C42 - Ordenar contatos
 
@@ -588,9 +716,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C43 - Compartilhar um contato
 
@@ -602,9 +738,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C44 - Enviar uma música
 
@@ -616,9 +760,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C45 - Desativar notificações do contato
 
@@ -630,9 +782,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C46 - Visualizar grupos que possui em comum com um contato
 
@@ -644,9 +804,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C47 - Bloquear um contato
 
@@ -658,9 +826,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C48 - Editar um contato
 
@@ -672,9 +848,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 #### C49 - Apagar um contato
 
@@ -686,9 +870,17 @@
 |   4    | Os atores foram listados de forma correta?                                   |    ✔     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    ✔     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    ✔     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✔     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    ✖     |
 |   8    | O planejamento induz a realização do objetivo?                               |    ✔     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    ✔     |
+
+##### Problemas
+
+7 - A avaliação não descreve um comportamento que irá garantir o objetivo.
+
+##### Possíveis soluções
+
+7 - Analisar o cenário para descrever uma restrição correta na tabela.
 
 ## 2. Dados Percentuais
 
@@ -721,30 +913,30 @@
 |   C23    |          100%          |
 |   C24    |          100%          |
 |   C25    |          100%          |
-|   C26    |          100%          |
-|   C27    |          100%          |
-|   C29    |          100%          |
-|   C29    |          100%          |
-|   C30    |          100%          |
-|   C31    |          100%          |
-|   C32    |          100%          |
-|   C33    |          100%          |
-|   C34    |          100%          |
-|   C35    |          100%          |
-|   C36    |          100%          |
-|   C37    |          100%          |
-|   C38    |          100%          |
-|   C39    |          100%          |
-|   C40    |          100%          |
-|   C41    |          100%          |
-|   C42    |          100%          |
-|   C43    |          100%          |
-|   C44    |          100%          |
-|   C45    |          100%          |
-|   C46    |          100%          |
-|   C47    |          100%          |
-|   C48    |          100%          |
-|   C49    |          100%          |
+|   C26    |          89%           |
+|   C27    |          89%           |
+|   C29    |          89%           |
+|   C29    |          89%           |
+|   C30    |          89%           |
+|   C31    |          89%           |
+|   C32    |          89%           |
+|   C33    |          89%           |
+|   C34    |          89%           |
+|   C35    |          89%           |
+|   C36    |          89%           |
+|   C37    |          89%           |
+|   C38    |          89%           |
+|   C39    |          89%           |
+|   C40    |          89%           |
+|   C41    |          89%           |
+|   C42    |          89%           |
+|   C43    |          89%           |
+|   C44    |          89%           |
+|   C45    |          89%           |
+|   C46    |          89%           |
+|   C47    |          89%           |
+|   C48    |          89%           |
+|   C49    |          89%           |
 
 ### Perguntas
 
@@ -756,13 +948,13 @@
 |   4    | Os atores foram listados de forma correta?                                   |    100%     |
 |   5    | As ações guiam o ator de forma a realizar a tarefa com sucesso?              |    100%     |
 |   6    | Caso exista, os eventos estão condizentes com o objetivo?                    |    100%     |
-|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |    100%     |
+|   7    | A avaliação descreve um comportamento que garante o cumprimento do objetivo? |     53%     |
 |   8    | O planejamento induz a realização do objetivo?                               |    100%     |
 |   9    | Os eventos estão dispostos da forma proposta?                                |    100%     |
 
 ## 3. Conclusão
 
-Foi verificado que o documento de Cenários de Uso não falta nada ou não possui pontos a serem melhorados.
+Foi verificado que o documento de Cenários de Uso falta apenas que a pergunta 7 seja satisfeita, e agora precisa ser modificado e feito as correções necessárias.
 
 ## 4. Referências
 
@@ -773,3 +965,4 @@ Foi verificado que o documento de Cenários de Uso não falta nada ou não possu
 | Versão | Data       | Modificação          | Autor       |
 | ------ | ---------- | -------------------- | ----------- |
 | 1.0    | 14/04/2021 | Criação do documento | Ítalo Alves |
+| 2.0    | 15/04/2021 | Revisão do documento | Ítalo Alves |
