@@ -36,3 +36,4 @@ O Telegram é um aplicativo de mensagens instantâneas baseado na nuvem. Os usu�
 | ---------- | ------ | ---------------------------- | ------------------------------------------------------------- |
 | 17/02/2021 | 1.0    | Desenvolvimento do Documento | Lucas Boaventura, Tiago Samuel, Herick Portugues, Ítalo Alves |
 | 18/02/2021 | 1.1    | Revisão do Documento         | Lorrany Oliveira                                              |
+| 27/04/2021 | 1.2    | Revisão do Documento         | Tiago Samuel Rodrigues                                        |
