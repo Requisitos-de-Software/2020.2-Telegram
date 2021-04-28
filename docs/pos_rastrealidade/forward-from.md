@@ -24,7 +24,7 @@
 
   <li>
     <p align="justify">
-      <strong>Desenvolvimento:</strong> abarca informações relacionadas aos diversos artefatos gerados no processo de desen volvimento;
+      <strong>Desenvolvimento, Gerencial:</strong> abarca informações relacionadas aos diversos artefatos gerados no processo de Desenvolvimento, Gerencial;
     </p>
   </li>
 
@@ -34,35 +34,37 @@
 
 |    Número do Requisito     |                                            Requisito                                            |                                     Cenários                                      | Léxico | História de Usuário | Categoria |
 | :------------------------: | :---------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :----: | :-----------------: | :-------- |
-|            RF1             |                     O usuário deve poder enviar/receber mensagens de texto                      | Anaĺise de Discurso, Entrevista, Análise de Protocolo, Questionário, StoryTelling |
-|            RF2             |                     O usuário deve poder enviar/receber mensagens de áudio                      | Anaĺise de Discurso, Entrevista, Análise de Protocolo, Questionário, StoryTelling |
-|            RF3             |                O usuário deve poder enviar/receber arquivos de imagem da galeria                |        Anaĺise de Discurso, Entrevista, Análise de Protocolo, Questionário        |
-|            RF4             |            O usuário deve poder enviar/receber arquivos de imagem capturados na hora            |                               Análise de Protocolo                                |
-|            RF5             |                O usuário deve poder enviar/receber arquivos de vídeo da galeria                 |        Anaĺise de Discurso, Entrevista, Análise de Protocolo, Questionário        |
-|            RF6             |             O usuário deve poder enviar/receber arquivos de vídeo gravados na hora              |                               Análise de Protocolo                                |
-|            RF7             |                    O usuário deve poder realizar chamadas de voz individuais                    |                   Análise de Discurso, Entrevista, Introspecção                   |
-|            RF8             |                     O usuário deve poder realizar chamadas de voz em grupo                      |                       Brainstorm, Introspecção, Observação                        |
-|            RF9             |                   O usuário deve poder realizar chamadas de vídeo individuais                   |                   Análise de Discurso, Entrevista, Introspecção                   |
-|            RF10            |                    O usuário deve poder realizar chamadas de vídeo em grupo                     |                       Brainstorm, Introspecção, Observação                        |
-| Rtext- Análise de Discurso |
-|            RF14            |                            O usuário deve poder encaminhar mensagens                            |                                Análise de Discurso                                |
-|            RF15            |                         O usuário deve poder excluir mensagens enviadas                         |                                Análise de Discurso                                |
-|            RF16            |                          O usuário deve poder enviar/receber arquivos                           |          Introspecção, Storytelling, Análise de Protocolo, Questionário           |
-|            RF17            |                   O sistema deve permitir a utilização e configuração de bots                   |                                Análise de Discurso                                |
-|            RF18            |          O sistema deve permitir a alternância de contas por meio do mesmo dispositivo          |                                Análise de Discurso                                |
-|            RF19            | O sistema deve permitir o controle da frequência de mensagens que podem ser enviadas nos grupos |                                Análise de Discurso                                |
-|            RF20            |            O usuário deve conseguir ver a confirmação de uma mensagem lida em grupos            |                             Brainstorming, Observação                             |
-|            RF21            |            O usuário deve poder bloquear o acesso ao aplicativo por meio da digital             |                                   Brainstorming                                   |
-|            RF22            |    O usuário deve poder gerenciar o armazenamento interno ocupado por uma conversa ou grupo     |                                   Brainstorming                                   |
-|            RF23            |         O sistema deve manter o histórico de mensagens do grupo para novos integrantes          |                                    Entrevista                                     |
-|            RF24            |                      O sistema deve permitir a divisão dos chats em pastas                      |                                    Entrevista                                     |
-|            RF25            |                 O sistema deve manter os arquivos e mensagens salvos na "nuvem"                 |                                    Entrevista                                     |
-|            RF26            |         O usuário deve poder encontrar pessoas próximas à ele que utilizam o aplicativo         |                                    Entrevista                                     |
-|            RF27            |                     O usuário deve poder realizar o cadastro no aplicativo                      |                                   Introspecção                                    |
-|            RF28            |                       O usuário deve poder realizar o login no aplicativo                       |                                   Introspecção                                    |
-|            RF29            |                             O usuário deve poder editar seu perfil                              |                                   Introspecção                                    |
-|            RF30            |                           O usuário deve poder visualizar seu perfil                            |                                   Introspecção                                    |
-|            RF31            |                          O usuário deve poder adicionar novos contatos                          |                        Introspecção, Análise de Protocolo                         |
+|            RF1             |                     O usuário deve poder enviar/receber mensagens de texto                      | Cenário 01 | L6 - Nova Mensagem | US26 | Desenvolvimento, Gerencial |
+|            RF2             |                     O usuário deve poder enviar/receber mensagens de áudio                      | Cenário 02 | L6 - Nova Mensagem | US27 | Desenvolvimento, Gerencial |
+|            RF3             |                O usuário deve poder enviar/receber arquivos de imagem da galeria                | Cenário 03 | L6 - Nova Mensagem | US28 | Desenvolvimento, Gerencial |
+|            RF4             |            O usuário deve poder enviar/receber arquivos de imagem capturados na hora            | Cenário 04 | L6 - Nova Mensagem | US29 | Desenvolvimento, Gerencial |
+|            RF5             |                O usuário deve poder enviar/receber arquivos de vídeo da galeria                 | Cenário 05 | L6 - Nova Mensagem | US30 | Desenvolvimento, Gerencial |
+|            RF6             |             O usuário deve poder enviar/receber arquivos de vídeo gravados na hora              | Cenário 06 | L6 - Nova Mensagem | US31 | Desenvolvimento, Gerencial |
+|            RF7             |                    O usuário deve poder realizar chamadas de voz individuais                    | Cenário 07 | - | US14 | Desenvolvimento, Gerencial |
+|            RF8             |                     O usuário deve poder realizar chamadas de voz em grupo                      | Cenário 08 | - | US15 | Desenvolvimento, Gerencial |
+|            RF9             |                   O usuário deve poder realizar chamadas de vídeo individuais                   | Cenário 09 | - | US16 | Desenvolvimento, Gerencial |
+|            RF10            |                    O usuário deve poder realizar chamadas de vídeo em grupo                     | Cenário 10 | - | US17 | Desenvolvimento, Gerencial |
+|  RF11  |                         O usuário deve poder criar grupos de mensagens                          | Cenário 11 | - | - | Desenvolvimento, Gerencial |
+|  RF12  |                               O usuário deve poder criar enquetes                               | Cenário 12 | - | US33 | Desenvolvimento, Gerencial |
+|  RF13  |                              O usuário deve poder salvar mensagens                              | Cenário 13 | L1 - Mensagens Salvas | US34 | Desenvolvimento, Gerencial |
+|            RF14            |                            O usuário deve poder encaminhar mensagens                            | Cenário 14 | - | US35 | Desenvolvimento, Gerencial |
+|            RF15            |                         O usuário deve poder excluir mensagens enviadas                         |  Cenário 15 | - | US36 | Desenvolvimento, Gerencial |
+|            RF16            |                          O usuário deve poder enviar/receber arquivos                           | Cenário 16 | - | US37 | Desenvolvimento, Gerencial |
+|            RF17            |                   O sistema deve permitir a utilização e configuração de bots                   | Cenário 17 | - | - | Desenvolvimento, Gerencial |
+|            RF18            |          O sistema deve permitir a alternância de contas por meio do mesmo dispositivo          | Cenário 18 | L3 - Dispositivos | US06 | Desenvolvimento, Gerencial |
+|            RF19            | O sistema deve permitir o controle da frequência de mensagens que podem ser enviadas nos grupos | Cenário 19 | - | - | Desenvolvimento, Gerencial |
+|            RF20            |            O usuário deve conseguir ver a confirmação de uma mensagem lida em grupos            | Cenário 20 | - | - | Desenvolvimento, Gerencial |
+|            RF21            |            O usuário deve poder bloquear o acesso ao aplicativo por meio da digital             | Cenário 21 | - | - | Desenvolvimento, Gerencial |
+|            RF22            |    O usuário deve poder gerenciar o armazenamento interno ocupado por uma conversa ou grupo     | Cenário 22 | - | - | Desenvolvimento, Gerencial |
+|            RF23            |         O sistema deve manter o histórico de mensagens do grupo para novos integrantes          | Cenário 23 | - | - | Desenvolvimento, Gerencial |
+|            RF24            |                      O sistema deve permitir a divisão dos chats em pastas                      | Cenário 24 | L4 - Pastas de Chat | - | Desenvolvimento, Gerencial |
+|            RF25            |                 O sistema deve manter os arquivos e mensagens salvos na "nuvem"                 | Cenário 25 | - | - | Desenvolvimento, Gerencial |
+|            RF26            |         O usuário deve poder encontrar pessoas próximas à ele que utilizam o aplicativo         | Cenário 26 | - | - | Desenvolvimento, Gerencial |
+|            RF27            |                     O usuário deve poder realizar o cadastro no aplicativo                      | Cenário 27 | - | US01 | Desenvolvimento, Gerencial |
+|            RF28            |                       O usuário deve poder realizar o login no aplicativo                       | Cenário 28 | - | US02 | Desenvolvimento, Gerencial |
+|            RF29            |                             O usuário deve poder editar seu perfil                              | Cenário 29 | - | US04 | Desenvolvimento, Gerencial |
+|            RF30            |                           O usuário deve poder visualizar seu perfil                            | Cenário 30 | - | US03 | Desenvolvimento, Gerencial |
+|            RF31            |                          O usuário deve poder adicionar novos contatos                          | Cenário 31 | - | US07 | Desenvolvimento, Gerencial |
 |            RF32            |                    O usuário deve poder visualizar o perfil de seus contatos                    |                        Introspecção, Análise de Protocolo                         |
 |            RF33            | O usuário deve poder responder uma mensagem enviada num grupo no privado da pessoa que a enviou |                                    Observação                                     |
 |            RF34            |   O usuário deve poder salvar e visualizar as mensagens salvas de uma conversa em específico    |                                    Observação                                     |
