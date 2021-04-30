@@ -30,7 +30,8 @@ Esse é o check-list que servirá de base para a inspeção das Rich Pictures.
 De acordo com a verificação, o documento está de acordo com o que se espera e está bem estruturado.
 
 ## Versionamento
-|   Data   | Versão |        Descrição              |            Autor(es)           |
-| :------: | :----: |    :---------------------:    | :----------------------------: |
-|13.04.2021|   1.0  |     Criação do documento      |     Tiago Samuel Rodrigues     |
-|          |        |                               |                                |
+  
+| Versão | Data |        Descrição              |            Autor(es)           |
+| :----: | :------: |    :---------------------:    | :----------------------------: |
+| 1.0    | 13.04.2021 |      Criação do documento      |     Tiago Samuel Rodrigues     |
+| 1.1    | 30/04/2021 | Revisão do documento | Lorrany Oliveira |
