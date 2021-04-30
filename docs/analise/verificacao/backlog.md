@@ -763,7 +763,7 @@
 | 11 | A história de usuário é coerente? | ✔ |
 
 
-#### US47 - Iniciar ou terminar uma sessões
+#### US47 - Iniciar ou terminar uma sessão
 | Número | Questão | Resposta |
 |:--:|--|:--:|
 | 1 | Todas as informações necessárias estão presentes? | ✔ |
@@ -811,7 +811,7 @@
 | 11 | A história de usuário é coerente? | ✔ |
 
 
-#### US50 - Redefinir onfigurações de notificações
+#### US50 - Redefinir configurações de notificações
 | Número | Questão | Resposta |
 |:--:|--|:--:|
 | 1 | Todas as informações necessárias estão presentes? | ✔ |
