@@ -112,7 +112,7 @@
 
 ##### Possíveis soluções
 
-9 - Corrigir a tabela inserindo um fluxo de exceção.
+8 - Corrigir a tabela inserindo um fluxo de exceção.
 
 ## 2. Dados Percentuais
 
