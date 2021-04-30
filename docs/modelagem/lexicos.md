@@ -65,7 +65,57 @@
 #### L12 - **Bloquear**
 |   Classificação   |  Noção  | Impacto | Sinônimos |
 | :---------------: | :-----: | :-----: | :-------: |
-|Verbo|Ação relacionada com o bloqueio de uma conta por um usuário|O usuário não poderá mais receber mensagens d contato que foi bloqueado| Ignorar, privar-se |
+|Verbo|Ação relacionada com o bloqueio de uma conta por um usuário|O usuário não poderá mais receber mensagens do contato que foi bloqueado| Ignorar, privar-se |
+
+#### L13 - **Usuário**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Nome para identificar a pessoa que está utilizando o aplicativo| Realiza a maioria das ações no aplicativo| Desfrutador, Usador |
+
+#### L14 - **Contato**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Um usuário do aplicativo que está na sua lista de contatos| - | - |
+
+#### L15 - **Online**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Status de um usuário, mostrando que ele está utilizando o aplicativo no exato momento| - | Conectado, Disponível |
+
+#### L16 - **Notificação**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Mensagem que notifica um usuário sobre um ocorrido dentro do aplicativo| Permite que usuário sejam notificados de mensagens novas ou outros avisos do aplicativo | Alerta, Aviso |
+
+#### L17 - **Chat**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Histórico de mensagens enviadas entre dois ou mais usuários| Permite guardar as mensagens enviadas e recebidas em um único local| Conversa, Histórico de Mensagens |
+
+#### L18 - **Chat em Grupo**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Conjunto de usuários em um mesmo chat| Permite enviar mensagens para vários usuários de uma vez, assim como receber mensagens de vários usuários, mantendo todas em um mesmo histórico compartilhado entre esses usuários | Agrupamento |
+
+#### L19 - **Pessoas próximas**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Indica as pessoas próximas à você| Permite iniciar conversas com pessoas a poucos quilômetros de você | - |
+
+#### L20 - **Fixar Conversa**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Ação|Mantém a conversa no topo da lista de conversas| Permite acessar as conversas com determinados contatos ou de determinados grupos mais rapidamente | - |
+
+#### L21 - **Arquivar Conversa**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Ação|Move a conversa para uma aba de conversas arquivadas| Permite guardar a conversa, não deixando ela aparecer na listagem principal de conversas | - |
+
+#### L22 - **Sticker**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Adesivo/Figurinha enviada como uma mensagem| Permite uma maior expressão por parte dos usuários em suas conversas  | Adesivo, Figurinha |
 
 ## 3. Referências Bibliográfica
 - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 10;
