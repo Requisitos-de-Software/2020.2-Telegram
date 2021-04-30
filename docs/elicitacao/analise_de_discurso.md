@@ -1,7 +1,7 @@
 # Análise de Discurso 
 ## Metodologia
 
- <p>&emsp;A análise de discurso é uma técnica de elicitação de requisitos que é e realizada através da observação e interpretação de conversas entre grupos de usuários, de forma que seja possível identificar possíveis requisitos por meio dos tópicos mediados. Essa técnica pode ser desenvolvida utilizando alguns métodos de organização/mediação como a análise de conversação, turntaking ou pares adjacentes, variando de acordo com a quantidade de participantes a forma que a mediação é feita ou não e a alternância que deverá acontecer entre a fala dos participantes.</p>
+ <p>&emsp;A análise de discurso é uma técnica de elicitação de requisitos que é realizada através da observação e interpretação de conversas entre grupos de usuários, de forma que seja possível identificar possíveis requisitos por meio dos tópicos mediados. Essa técnica pode ser desenvolvida utilizando alguns métodos de organização/mediação como a análise de conversação, turntaking ou pares adjacentes, variando de acordo com a quantidade de participantes a forma que a mediação é feita ou não e a alternância que deverá acontecer entre a fala dos participantes.</p>
 
 <p>&emsp;Dentre as três possibilidades de realização da técnica, que são: Análise de conversação, turntaking ou pares adjacentes, a análise de discurso junto da análise de conversação foi o método escolhido. Em específico na aplicação desse método, as tarefas durante a conversa entre os stakeholders são designadas para uma única pessoa, que deverá: </p>
 
@@ -44,7 +44,7 @@ O resultado da reunião foram a elicitação das seguintes funcionalidades:
   - Salvar mensagens   
   - Encontrar pessoas próximas   
   - Pesquisar usuários e mensagens    
-  - Covidar amigos    
+  - Convidar amigos    
   - Encaminhar e deletar mensagens    
   - Botfather     
   - Alternar entre contas no mesmo dispositivo    
@@ -73,4 +73,4 @@ O resultado da reunião foram a elicitação das seguintes funcionalidades:
 | :------: | :----: |    :---------------------:    | :----------------------------: |
 |08.03.2021|   0.1  |  Criação do documento         |        Brenda Santos           |
 |11.03.2021|   1.0  |  Desenvolvimento do documento | Brenda Santos, Lucas Boaventura|
-|          |        |                               |                                |
+|30.04.2021|   1.0  |  Revisão do documento         |        Lorrany Oliveira        |
