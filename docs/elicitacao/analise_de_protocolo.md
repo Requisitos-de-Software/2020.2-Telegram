@@ -17,7 +17,7 @@
 
 ## Resultado
 
-<p>&emsp; Os relatos do participante ao realizar a tarefa vão ser dividios para um melhor entendimento, a partir do tópico abaixo os textos estarão representando os seus pensamentos, comentários, sugestões e críticas acerca do aplicativo durante a realização da tarefa. </p>
+<p>&emsp; Os relatos do participante ao realizar a tarefa vão ser divididos para um melhor entendimento, a partir do tópico abaixo os textos estarão representando os seus pensamentos, comentários, sugestões e críticas acerca do aplicativo durante a realização da tarefa. </p>
 
 ### Primeira tela
 
