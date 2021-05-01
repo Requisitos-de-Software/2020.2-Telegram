@@ -2,7 +2,7 @@
 
 ## 1. Cronograma
 
-Ao cronograma das tarefas do projeto foi baseado nas datas de entregas das atividades descritas no plano de ensino da disciplina de Requisitos de Software, visando atender às exigências de cada ponto de controle. É importante ressaltar que as datas podem ser alteradas futuramente, caso seja necessário.
+O cronograma das tarefas do projeto foi baseado nas datas de entregas das atividades descritas no plano de ensino da disciplina de Requisitos de Software, visando atender às exigências de cada ponto de controle. É importante ressaltar que as datas podem ser alteradas futuramente, caso seja necessário.
 
 ### 1.1 Cronograma das etapas
 
@@ -22,6 +22,7 @@ Ao cronograma das tarefas do projeto foi baseado nas datas de entregas das ativi
 O Scrum é uma metodologia ágil que contém diversas rotinas para manter a equipe engajada e atualizada sobre o projeto, a se organizarem enquanto resolvem um problema e a refletirem sobre os êxitos e fracassos para melhorarem continuamente. Scrum é um framework estrutural usado para gerenciar o desenvolvimento de produtos. Ele é fundado nos princípios de transparência, inspeção e adaptação. Aos princípios do Scrum integramos eventos, papéis e artefatos, administrando as relações e interações entre eles.
 
 ![](https://i2.wp.com/www.scrumportugal.pt/wp-content/uploads/como-funciona-o-scrum.png?fit=1300,570)
+https://i2.wp.com/www.scrumportugal.pt/wp-content/uploads/como-funciona-o-scrum.png?fit=1300%2C570
 
 ### 2.2 Kanban:
 
@@ -30,6 +31,7 @@ O Kanban, trata-se de uma simbologia visual usada no desenvolvimento de produtos
 O Kanban é orientado através de colunas, em que cada uma representa diferentes estados de completeza de uma atividade (a fazer, fazendo, feito), as atividades (cartões visuais) vão transitando entre as colunas, mostrando o andamento do projeto.
 
 ![](https://blog.caelum.com.br/wp-content/uploads/2016/01/kanban.jpg)
+https://thispersondoesnotexist.com/
 
 ### 2.3 Política de Branches
 

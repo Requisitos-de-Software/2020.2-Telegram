@@ -12,7 +12,7 @@
 
 A técnica foi aplicada pela integrante do grupo, Lorrany Oliveira, obtendo como resultado a tabela a seguir:
 
-| Número |                       Requisitos                      |
+| Número | Requisitos                                            |
 | :----: | :---------------------------------------------------- |
 |   1    | O usuário poderá realizar seu cadastro                |
 |   2    | O usuário poderá realizar o login                     |
@@ -32,13 +32,13 @@ A técnica foi aplicada pela integrante do grupo, Lorrany Oliveira, obtendo como
 
 ## Referências Bibliográficas
 
-- DESCONHECIDO. Elicitação de Requisitos. Disponível em <http://www2.dbd.puc-rio.br/pergamum/tesesabertas/0521479_08_cap_02.pdf> 
+- ANDRADE DE MORAIS, E. Utilização de uma estratégia para Identificação de fontes de informação na fase de Elicitação. Doutorado—[s.l.] Pontifícia Universidade Católica Do Rio De Janeiro, 2021.
 
 ## Versionamento
 
-|    Data    | Versão |                    Descrição                        |    Autor(es)     |
-| :--------: | :----: | :-----------------------------------------------:   | :--------------: |
-| 10.03.2021 |  1.0   |       Criação e desenvolvimento do documento        | Lorrany Oliveira |
-| 11.03.2021 |  2.0   | Revisa o documento e acerta algumas formatações     | Lucas Boaventura |
-| 11.03.2021 |  2.1   |   Ajusta detalhe na bibliografia e revisa texto     |   Brenda Santos  |
-
+|    Data    | Versão |                    Descrição                    |    Autor(es)     |
+| :--------: | :----: | :---------------------------------------------: | :--------------: |
+| 10.03.2021 |  1.0   |     Criação e desenvolvimento do documento      | Lorrany Oliveira |
+| 11.03.2021 |  2.0   | Revisa o documento e acerta algumas formatações | Lucas Boaventura |
+| 11.03.2021 |  2.1   |  Ajusta detalhe na bibliografia e revisa texto  |  Brenda Santos   |
+| 30.04.2021 |  2.2   |              Revisão do documento               |   Ítalo Alves    |

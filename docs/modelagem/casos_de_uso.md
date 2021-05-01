@@ -1,11 +1,11 @@
 # Casos de Uso
 
-## Introdução
+## 1. Introdução
 <p align='justify'> &emsp;Um caso de uso tem como função descrever como um ator/usuário realizará uma tarefa no sistema. Ele descreve, pelo ponto de vista do usuário, o comportamento do sistema conforme ele vai respondendo às solicitações. Cada caso de uso é representado como uma sequência de etapas simples, que começa com um objetivo/meta do usuário e termina quando este é concluido. Essas etapas são definidas a partir de um Diagrama de Casos de Uso, seguido pelas especificações dos casos, em que se é possível observar uma breve descrição e um fluxo de utilização do caso.</p>
 
-## Casos de Uso
+## 2. Casos de Uso
 
-#### UC01 - Enviar Mensagem
+#### 2.1. UC01 - Enviar Mensagem
 ![UC01](../assets/modelagem/uc01_mensagens.png)
 <figcaption>Figura 1. Imagem que ilustra o Casos de Uso ao enviar mensagem.</figcaption>
 
@@ -20,9 +20,9 @@
 | Pós-condições | O ator poderá utilizar os chats com seus contatos |
 | Rastreabilidade | Requisitos Funcionais 1-6, 13-16, 35-38, 43-44 do [documento final de elicitação](https://requisitos-de-software.github.io/2020.2-Telegram/elicitacao/Resultado_e_Prioriza%C3%A7%C3%A3o/resultado/) |
 
-#### UC02 - Criar/Participar de Grupo
+#### 2.2. UC02 - Criar/Participar de Grupo
 ![UC01](../assets/modelagem/uc02_grupos.png)
-<figcaption>Figura 1. Imagem que ilustra o Casos de Uso ao criar/participar de umgrupo.</figcaption>
+<figcaption>Figura 2. Imagem que ilustra o Casos de Uso ao criar/participar de umgrupo.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -35,9 +35,9 @@
 | Pós-condições | O ator terá um grupo de mensagens criado |
 | Rastreabilidade | Requisitos Funcionais 11-12 do [documento final de elicitação](https://requisitos-de-software.github.io/2020.2-Telegram/elicitacao/Resultado_e_Prioriza%C3%A7%C3%A3o/resultado/) |
 
-#### UC03 - Configurações
+#### 2.3. UC03 - Configurações
 ![UC01](../assets/modelagem/uc03_configuracoes.png)
-<figcaption>Figura 1. Imagem que ilustra o Casos de Uso ao acessar as configurações do aplicativo.</figcaption>
+<figcaption>Figura 3. Imagem que ilustra o Casos de Uso ao acessar as configurações do aplicativo.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -50,9 +50,9 @@
 | Pós-condições | O ator terá suas configurações atualizadas |
 | Rastreabilidade | Requisitos Funcionais 22, 29 do [documento final de elicitação](https://requisitos-de-software.github.io/2020.2-Telegram/elicitacao/Resultado_e_Prioriza%C3%A7%C3%A3o/resultado/) |
 
-#### UC04 - Visualizar Pessoas Próximas
+#### 2.4. UC04 - Visualizar Pessoas Próximas
 ![UC01](../assets/modelagem/uc04_pessoas_proximas.png)
-<figcaption>Figura 1. Imagem que ilustra o Casos de Uso ao visualizar pessoas próximas.</figcaption>
+<figcaption>Figura 4. Imagem que ilustra o Casos de Uso ao visualizar pessoas próximas.</figcaption>
 
 |   UC01   |  Informações  |
 | ----------------- | ------- |
@@ -65,12 +65,13 @@
 | Pós-condições | O ator encontrará pessoas e grupos próximos a ele |
 | Rastreabilidade | Requisito Funcional 26 do [documento final de elicitação](https://requisitos-de-software.github.io/2020.2-Telegram/elicitacao/Resultado_e_Prioriza%C3%A7%C3%A3o/resultado/) |
 
-## Bibliografia
+## 3. Referências Bibliográficas
 - Use Cases. usability.gov. Disponível em: https://www.usability.gov/how-to-and-tools/methods/use-cases.html. Acesso em: 22 de mar. de 2021.
 
-## Versionamento
+## 4. Versionamento
 |   Data     | Versão |        Descrição             |     Autor(es)    |
 | :--------: | :----: | :--------------------------: | :--------------: |
 | 24/03/2021 |  0.1   | Criação dos Casos de Uso     | Hérick Portugues |
 | 25/03/2021 |  1.0   | Desenvolvimento do documento | Hérick Portugues |
-| 25/03/2021 |  2.0   | Revisão do documento e adição de descrição das imagens | Lucas Boaventura |
+| 25/03/2021 |  1.1   | Revisão do documento e adição de descrição das imagens | Lucas Boaventura |
+| 27/04/2021 |  1.2   | Revisão do documento | Tiago Samuel Rodrigues |

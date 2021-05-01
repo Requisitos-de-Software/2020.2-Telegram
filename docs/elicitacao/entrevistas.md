@@ -2,14 +2,15 @@
 
 ## Metodologia
 
- <p>&emsp;A entrevista é uma forma de diálogo, formal ou informal, entre duas ou mais pessoas, onde o entrevistador busca respostas para um conjunto de questões previamente planejadas e os entrevistados se apresentam como fontes de informação. Trata-se, portanto, de uma técnica mais flexível, que aproxima o engenheiro de requisitos do usuário do sistema, permitindo adquirir informações de caráter subjetivo. Dessa forma, é uma técnica muito utilizada na elicitação de requisitos para encontrar os requisitos ideias para o sistema</p>
+ <p>&emsp;A entrevista é uma forma de diálogo, formal ou informal, entre duas ou mais pessoas, onde o entrevistador busca respostas para um conjunto de questões previamente planejadas e os entrevistados se apresentam como fontes de informação. Trata-se, portanto, de uma técnica mais flexível, que aproxima o engenheiro de requisitos do usuário do sistema, permitindo adquirir informações de caráter subjetivo. Dessa forma, é uma técnica muito utilizada na elicitação de requisitos para encontrar os requisitos ideias para o sistema.</p>
 
 ## Participantes
 
-  - Hérick Portugues
-  - Tiago Rodrigues
+- Hérick Portugues
+- Tiago Rodrigues
 
 ## Resultado
+
 <p>&emsp; Para o papel de entrevistado serão utilizadas as personas. As respostas terão como base o perfil de cada uma e em como imaginamos que suas características se adaptam ao aplicativo</strong>.</p>
 
 ### Roteiro
@@ -29,7 +30,7 @@
 
 Respostas:
 
-1. Comecei a utilizar o telegram devido à facilidade de utilização de grupos. Posso enviar mensagens e  receber feedbacks e atualizações por um único canal, assim também consigo incluir meus clientes nos grupos das equipes para que a comunicação entre as duas pontas seja mais diretas.
+1. Comecei a utilizar o telegram devido à facilidade de utilização de grupos. Posso enviar mensagens e receber feedbacks e atualizações por um único canal, assim também consigo incluir meus clientes nos grupos das equipes para que a comunicação entre as duas pontas seja mais diretas.
 
 2. Eu utilizo mais as mensagens de texto em grupo. A que menos utilizo é a funcionalidade de encontrar pessoas próximas de mim.
 
@@ -42,11 +43,11 @@ Respostas:
 **Entrevista 2**
 
 - Entrevistador: Hérick Portugues
-- Entrevistado: Leticia Gomes
+- Entrevistado: Letícia Gomes
 
 Respostas:
 
-1. Comecei a usar o Telegram pela facilidade de comunicação nos grupos. Consigo interagir de forma fácil e eficaz com a minha equipe de trabalho e/ou grupos de projetos da faculdade para  esclarecer algumas tarefas e tomar decisões rápidas que não precisem de reuniões.
+1. Comecei a usar o Telegram pela facilidade de comunicação nos grupos. Consigo interagir de forma fácil e eficaz com a minha equipe de trabalho e/ou grupos de projetos da faculdade para esclarecer algumas tarefas e tomar decisões rápidas que não precisem de reuniões.
 
 2. As funcionalidades que eu mais utilizo são as enquetes e mensagems de texto em grupo. O que eu menos utilizo são as chamadas de vídeo.
 
@@ -75,30 +76,30 @@ Respostas:
 
 Como resultado das entrevistas foram elicitados os seguintes requisitos:
 
+| Número |                                   Requisitos                                    |
+| :----: | :-----------------------------------------------------------------------------: |
+|   1    |                 O usuário deve poder criar grupos de mensagens                  |
+|   2    |                 O usuário deve poder enviar mensagens de texto                  |
+|   3    |                 O usuário deve poder enviar mensagens de áudio                  |
+|   4    |                 O usuário deve poder enviar arquivos de imagen                  |
+|   5    |                  O usuário deve poder enviar arquivos de vídeo                  |
+|   6    | O sistema deve manter o histórico de mensagens do grupo para novos integrantes  |
+|   7    |                       O usuário deve poder criar enquetes                       |
+|   8    |              O sistema deve permitir a divisão dos chats em pastas              |
+|   9    |         O sistema deve manter os arquivos e mensagens salvos na "nuvem"         |
+|   10   |                 O usuário deve poder realizar chamadas de áudio                 |
+|   11   |                 O usuário deve poder realizar chamadas de vídeo                 |
+|   12   | O usuário deve poder encontrar pessoas próximas à ele que utilizam o aplicativo |
 
-  | Número  |                                   Requisitos                                    |  
-  | :-----: |  :----------------------------------------------------------------------------: |
-  |    1    | O usuário deve poder criar grupos de mensagens                                  |
-  |    2    | O usuário deve poder enviar mensagens de texto                                  |
-  |    3    | O usuário deve poder enviar mensagens de áudio                                  | 
-  |    4    | O usuário deve poder enviar arquivos de imagen                                  |
-  |    5    | O usuário deve poder enviar arquivos de vídeo                                   |
-  |    6    | O sistema deve manter o histórico de mensagens do grupo para novos integrantes  |
-  |    7    | O usuário deve poder criar enquetes                                             |
-  |    8    | O sistema deve permitir a divisão dos chats em pastas                           |
-  |    9    | O sistema deve manter os arquivos e mensagens salvos na "nuvem"                 |
-  |    10   | O usuário deve poder realizar chamadas de áudio                                 |
-  |    11   | O usuário deve poder realizar chamadas de vídeo                                 |
-  |    12   | O usuário deve poder encontrar pessoas próximas à ele que utilizam o aplicativo |
-
-
-## Bibliografia
+## Referências Bibliográficas
 
 - VAZQUEZ, Carlos; SIMÕES, Guilherme; Engenharia de Requisitos: Cap. 7 - Elicitação de Requisitos
 - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07
 
 ## Versionamento
-|   Data   | Versão |        Descrição              |            Autor(es)            |
-| :------: | :----: |    :---------------------:    | :-----------------------------: |
-|10.03.2021|   1.0  |  Realização das Entrevistas   | Hérick Portugues e Tiago Samuel |
-|12.03.2021|   1.1  |  Desenvolvimento do documento | Hérick Portugues |
+
+|    Data    | Versão |          Descrição           |            Autor(es)            |
+| :--------: | :----: | :--------------------------: | :-----------------------------: |
+| 10.03.2021 |  1.0   |  Realização das Entrevistas  | Hérick Portugues e Tiago Samuel |
+| 12.03.2021 |  1.1   | Desenvolvimento do documento |        Hérick Portugues         |
+| 30.04.2021 |  1.2   |     Revisão do documento     |           Ítalo Alves           |

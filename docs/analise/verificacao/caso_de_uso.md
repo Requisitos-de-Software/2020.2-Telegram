@@ -112,7 +112,7 @@
 
 ##### Possíveis soluções
 
-9 - Corrigir a tabela inserindo um fluxo de exceção.
+8 - Corrigir a tabela inserindo um fluxo de exceção.
 
 ## 2. Dados Percentuais
 
@@ -153,3 +153,5 @@ Foi verificado que o documento de Casos de Uso falta apenas os fluxos de exceç�
 | Versão | Data       | Modificação          | Autor       |
 | ------ | ---------- | -------------------- | ----------- |
 | 1.0    | 13/04/2021 | Criação do documento | Ítalo Alves |
+| 1.1    | 30/04/2021 | Revisão do documento | Lorrany Oliveira |
+

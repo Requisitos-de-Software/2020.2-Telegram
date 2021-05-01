@@ -198,3 +198,4 @@
 | Versão | Data | Modificação | Autor |
 |--|--|--|--|
 | 1.0 | 13/04/2021 | Criação e desenvolvimento do documento de verificação dos léxicos | Brenda Santos |
+| 1.1 | 30/04/2021 | Revisão do documento | Lorrany Oliveira |

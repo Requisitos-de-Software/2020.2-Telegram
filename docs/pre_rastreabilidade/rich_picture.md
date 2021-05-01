@@ -6,11 +6,11 @@ O Rich picture é uma maneira efetiva de analisar problemas e expressar ideias a
 
 ## 2. Rich Pictures
 
-### 2.1 Rich Picture Geral
+### 2.1. Rich Picture Geral
 
 ![Rich Picture Geral](../assets/rich_picture/RichPictureTelegram.png)
 
-### 2.1 Rich Picture Comunicação
+### 2.1. Rich Picture Comunicação
 
 ![Rich Picture Comunicação](../assets/rich_picture/RichPictureComunicacao.png)
 
@@ -20,3 +20,4 @@ O Rich picture é uma maneira efetiva de analisar problemas e expressar ideias a
 | ---------- | ------ | --------------------------   | ---------------------|
 | 18/02/2021 | 1.0    | Desenho dos Rich Pictures    | Todos os Integrantes |
 | 20/02/2021 | 1.1    | Desenvolvimento do documento | Hérick Portugues     |
+| 27/04/2021 | 1.2    | Revisão do Documento | Tiago Samuel Rodrigues |

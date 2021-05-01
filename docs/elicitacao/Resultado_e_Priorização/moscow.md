@@ -70,21 +70,21 @@
 |  RF47  |                            O usuário deve poder bloquear um contato                             |  Must  |
 |  RF48  |                             O usuário deve poder editar um contato                              |  Must  |
 |  RF49  |                             O usuário deve poder apagar um contato                              |  Must  |
-|  RF50  |                      O usuário deve poder convidar amigos para o aplicativo                     | Should |
-|  RF51  |                     O usuário deve poder ficar visível para pessoas próximas                    | Should |
-|  RF52  |                      O usuário deve poder criar/participar de grupos locais                     | Should |
+|  RF50  |                     O usuário deve poder convidar amigos para o aplicativo                      | Should |
+|  RF51  |                    O usuário deve poder ficar visível para pessoas próximas                     | Should |
+|  RF52  |                     O usuário deve poder criar/participar de grupos locais                      | Should |
 |  RF53  |                         O usuário deve poder criar canais de voz locais                         |  Must  |
-|  RF54  |                             O usuário deve poder apagar conversas                               |  Must  |
-|  RF55  |                          O usuário deve poder fixar conversas locais                            | Should |
+|  RF54  |                              O usuário deve poder apagar conversas                              |  Must  |
+|  RF55  |                           O usuário deve poder fixar conversas locais                           | Should |
 |  RF56  |                         O usuário deve poder arquivar conversas locais                          | Should |
-|  RF57  |                   O usuário deve poder alterar a visualização da aba de chamadas                |  Must  |
-|  RF58  |             O usuário deve poder alterar as configurações de privacidade e segurança            | Should |
-|  RF59  |              O usuário deve poder alterar as configurações de dados e armazenamento             | Should |
+|  RF57  |                 O usuário deve poder alterar a visualização da aba de chamadas                  |  Must  |
+|  RF58  |            O usuário deve poder alterar as configurações de privacidade e segurança             | Should |
+|  RF59  |             O usuário deve poder alterar as configurações de dados e armazenamento              | Should |
 |  RF60  |                   O usuário deve poder alterar as configurações de aparência                    | Could  |
-|  RF61  |                O usuário deve poder alterar o idioma de exibição do aplicativo                  |  Must  |
-|  RF62  |                  O usuário deve poder editar e gerenciar pacotes de stickers                    | Could  | 
+|  RF61  |                 O usuário deve poder alterar o idioma de exibição do aplicativo                 |  Must  |
+|  RF62  |                   O usuário deve poder editar e gerenciar pacotes de stickers                   | Could  |
 
-## Bibliografia
+## Referências Bibliográficas
 
 - WIEGERS, Karl; BEATTY, Joy.Software Requirements, Third Edition.
 
@@ -96,3 +96,4 @@
 | 12.03.2021 |  2.0   | Revisa o documento e formata alguns termos chave do documento |          Lucas Boaventura           |
 | 01.04.2021 |  2.1   |                 Atualiza tabela de requisitos                 |          Hérick Portugues           |
 | 01.04.2021 |  2.2   |                   Adiciona novos requisitos                   |          Hérick Portugues           |
+| 30.04.2021 |  2.3   |                     Revisão do documento                      |             Ítalo Alves             |

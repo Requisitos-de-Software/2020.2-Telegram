@@ -1,10 +1,10 @@
 # Backlog do Produto
 
-## Introdução
+## 1. Introdução
 
 <p align='justify'> &emsp;O backlog de produto em um projeto ágil contém uma lista de demandas de trabalho que um time deve realizar. São normalmente compostos de histórias de usuário, mas alguns times também colocam outros requisitos, processos de negócio, e defeitos a serem corrigidos (Wiegers e Beatty, 2013). Este documento se destina a descrever e priorizar o conjunto de épicos e histórias de usuário que irão compor o escopo de requisitos do aplicativo Telegram.</p>
 
-## Épicos
+## 2. Épicos
 
 <p align='justify'> &emsp;Podem ser descritos como grandes áreas do projeto que não foram detalhadas a ponto de se tornarem histórias de usuário e, portanto, não podem ser transformadas em incrementos ou funcionalidades do produto. Nesse projeto os épicos foram separados em:</p>
 
@@ -16,7 +16,7 @@
 - [Pessoas Próximas](ep06_epico_pessoas_proximas.md)
 - [Configurações](ep07_epico_configuracoes.md)
     
-## Histórias de Usuário
+## 3. Histórias de Usuário
 
 <p align='justify'> &emsp;Histórias de usuários são, resumidamente, uma forma simplificada de descrever os requisitos que devem ser contemplados no produto final. Essas histórias devem ser descritas de forma natural, num formato que seja possível visualizar como o usuário estabelecerá uma relação com a aplicação por meio de determinada funcionalidade. Nesse documento as histórias planejadas foram separadas por épicos e ao acessar cada épico é possível encontrar os critérios de aceitação de cada história. As histórias foram descritas da seguinte forma:</p>
 
@@ -110,10 +110,10 @@
 | US54  |      Alterar o idioma de exibição do aplicativo       | Ter a possibilidade de testar outros idiomas na aplicação |    Must    | RF61 |
 | US55  |         Editar e gerenciar pacotes de stickers        | Gerenciar ou remover pacotes de stickers |    Could    | RF62 |
 
-## Referências Bibliográficas
+## 4. Referências Bibliográficas
 - WIEGERS, Karl; BEATTY, Joy. "Software Requirements". Microsoft Press, 2013.
 
-## Versionamento
+## 5. Versionamento
 
 | Data       | Versão |                Descrição                                |        Autor(es)        |
 | :--------: | :----: | :-----------------------------------------------------: | :---------------------: |
@@ -122,4 +122,5 @@
 | 01/04/2021 |   1.2  |         Adição dos épicos mensagens e chamadas          |         Lorrany         |
 | 01/04/2021 |   1.3  |  Adição dos épicos perfil, contatos e pessoas próximas  |    Hérick Portugues     |
 | 01/04/2021 |   1.4  |            Revisão e correções no documento             |Brenda, Herick e Lorrany |
-| 02/04/2021 |   2.0  |            Revisa o documentos e corrigi referências e formatação           |Lucas Boaventura |
+| 02/04/2021 |   1.5  |            Revisa o documento e corrigi referências e formatação           |Lucas Boaventura |
+| 27/04/2021 |   1.6  |            Revisa o documento |Tiago Samuel Rodrigues |
