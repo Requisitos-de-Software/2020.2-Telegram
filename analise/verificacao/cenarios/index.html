@@ -1,0 +1,6865 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../../assets/planejamento/logos/telegram-logo.webp">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
+    
+    
+      
+        <title>Verificação dos Cenários - Telegram</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e35208c4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#02a6f2">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/styles.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="">
+  
+    
+    <script>function __prefix(e){return new URL("../../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#verificacao-dos-cenarios" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Telegram" class="md-header__button md-logo" aria-label="Telegram" data-md-component="logo">
+      
+  <img src="../../../assets/planejamento/logos/telegram-logo-with-border.svg.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Telegram
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Verificação dos Cenários
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Sobre
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../../planejamento/" class="md-tabs__link">
+      Planejamento
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Apresenta%C3%A7%C3%B5es/entrega-1/" class="md-tabs__link">
+        Apresentações
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/analise_de_discurso/" class="md-tabs__link">
+        Elicitação
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Pr%C3%A9_Rastreabilidade/rich_picture/" class="md-tabs__link">
+        Pré Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../P%C3%B3s_Rastreabilidade/backward-from/" class="md-tabs__link">
+        Pós Rastreabilidade
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../Valida%C3%A7%C3%A3o/validacao-prototipacao/" class="md-tabs__link md-tabs__link--active">
+        Analise
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../modelagem/Especifica%C3%A7%C3%A3o_Suplementar/" class="md-tabs__link">
+        Modelagem
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Telegram" class="md-nav__button md-logo" aria-label="Telegram" data-md-component="logo">
+      
+  <img src="../../../assets/planejamento/logos/telegram-logo-with-border.svg.png" alt="logo">
+
+    </a>
+    Telegram
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Sobre
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        Apresentações
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Apresentações" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Apresentações
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresenta%C3%A7%C3%B5es/entrega-1/" class="md-nav__link">
+        Entrega 1
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresenta%C3%A7%C3%B5es/entrega-2/" class="md-nav__link">
+        Entrega 2
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresenta%C3%A7%C3%B5es/entrega-3/" class="md-nav__link">
+        Entrega 3
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresenta%C3%A7%C3%B5es/entrega-4/" class="md-nav__link">
+        Entrega 4
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresenta%C3%A7%C3%B5es/entrega-5/" class="md-nav__link">
+        Entrega 5
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Apresenta%C3%A7%C3%B5es/entrega-final/" class="md-nav__link">
+        Entrega final
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Elicitação
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/analise_de_discurso/" class="md-nav__link">
+        Análise de Discurso
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/analise_de_protocolo/" class="md-nav__link">
+        Análise de Protocolo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/entrevistas/" class="md-nav__link">
+        Entrevistas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/observacao/" class="md-nav__link">
+        Observação
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/questionario/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_10" type="checkbox" id="__nav_4_10" >
+      
+      <label class="md-nav__link" for="__nav_4_10">
+        Resultado e Priorização
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Resultado e Priorização" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_10">
+          <span class="md-nav__icon md-icon"></span>
+          Resultado e Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/Resultado_e_Prioriza%C3%A7%C3%A3o/moscow/" class="md-nav__link">
+        MoSCoW
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/Resultado_e_Prioriza%C3%A7%C3%A3o/resultado/" class="md-nav__link">
+        Resultado Elicitação
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      <label class="md-nav__link" for="__nav_5">
+        Pré Rastreabilidade
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Pré Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Pré Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Pr%C3%A9_Rastreabilidade/rich_picture/" class="md-nav__link">
+        Rich Pictures
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      <label class="md-nav__link" for="__nav_6">
+        Pós Rastreabilidade
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Pós Rastreabilidade" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Pós Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s_Rastreabilidade/backward-from/" class="md-nav__link">
+        Backward-From
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s_Rastreabilidade/forward-from/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+      
+      <label class="md-nav__link" for="__nav_7">
+        Analise
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Analise" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Analise
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_1" type="checkbox" id="__nav_7_1" >
+      
+      <label class="md-nav__link" for="__nav_7_1">
+        Validação
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Validação" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_1">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Valida%C3%A7%C3%A3o/validacao-prototipacao/" class="md-nav__link">
+        Validação por prototipação
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7_2" type="checkbox" id="__nav_7_2" checked>
+      
+      <label class="md-nav__link" for="__nav_7_2">
+        Verificacao
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Verificacao" data-md-level="2">
+        <label class="md-nav__title" for="__nav_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Verificacao
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        Verificação do Backlog
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../caso_de_uso/" class="md-nav__link">
+        Verificação dos Casos de Uso
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Verificação dos Cenários
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Verificação dos Cenários
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-reuniao-de-inspecao" class="md-nav__link">
+    1. Reunião de Inspeção
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Reunião de Inspeção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#checklist" class="md-nav__link">
+    Checklist
+  </a>
+  
+    <nav class="md-nav" aria-label="Checklist">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#c01-enviar-ou-receber-mensagens-de-texto" class="md-nav__link">
+    C01 - Enviar ou receber mensagens de texto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c02-enviar-ou-receber-mensagens-de-audio" class="md-nav__link">
+    C02 - Enviar ou receber mensagens de áudio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c03-enviar-ou-receber-arquivos-de-imagem-da-galeria" class="md-nav__link">
+    C03 - Enviar ou receber arquivos de imagem da galeria
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c04-enviar-ou-receber-arquivos-de-imagem-capturados-na-hora" class="md-nav__link">
+    C04 - Enviar ou receber arquivos de imagem capturados na hora
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c05-enviar-ou-receber-arquivos-de-video-da-galeria" class="md-nav__link">
+    C05 - Enviar ou receber arquivos de vídeo da galeria
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c06-enviar-ou-receber-arquivos-de-videos-capturados-na-hora" class="md-nav__link">
+    C06 - Enviar ou receber arquivos de vídeos capturados na hora
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c07-realizar-chamadas-de-voz-individuais" class="md-nav__link">
+    C07 - Realizar chamadas de voz individuais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c08-realizar-chamadas-de-voz-em-grupo" class="md-nav__link">
+    C08 - Realizar chamadas de voz em grupo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c09-realizar-chamadas-de-video-individuais" class="md-nav__link">
+    C09 - Realizar chamadas de vídeo individuais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c10-realizar-chamadas-de-video-em-grupo" class="md-nav__link">
+    C10 - Realizar chamadas de vídeo em grupo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c11-criar-grupos-de-mensagens" class="md-nav__link">
+    C11 - Criar grupos de mensagens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c12-criar-enquetes" class="md-nav__link">
+    C12 - Criar enquetes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c13-salvar-mensagens" class="md-nav__link">
+    C13 - Salvar mensagens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c14-encaminhar-mensagens" class="md-nav__link">
+    C14 - Encaminhar mensagens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c15-excluir-mensagens-enviadas" class="md-nav__link">
+    C15 - Excluir mensagens enviadas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c16-enviar-ou-receber-arquivos" class="md-nav__link">
+    C16 - Enviar ou receber arquivos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c17-utilizacao-e-configuracao-de-bots" class="md-nav__link">
+    C17 - Utilização e configuração de bots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c18-alternancia-de-contas-por-meio-do-mesmo-dispositivo" class="md-nav__link">
+    C18 - Alternância de contas por meio do mesmo dispositivo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c19-controle-de-frequencia-de-mensagens-que-podem-ser-enviadas-nos-grupos" class="md-nav__link">
+    C19 - Controle de frequência de mensagens que podem ser enviadas nos grupos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c20-ver-confirmacao-de-uma-mensagem-lida-em-grupos" class="md-nav__link">
+    C20 - Ver confirmação de uma mensagem lida em grupos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c21-bloquear-o-acesso-ao-aplicativo-por-meio-da-digital" class="md-nav__link">
+    C21 - Bloquear o acesso ao aplicativo por meio da digital
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c22-gerenciar-o-armazenamento-interno-ocupado-por-uma-conversa-ou-grupo" class="md-nav__link">
+    C22 - Gerenciar o armazenamento interno ocupado por uma conversa ou grupo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c23-manter-o-historico-de-mensagens-do-grupo-para-novos-integrantes" class="md-nav__link">
+    C23 - Manter o histórico de mensagens do grupo para novos integrantes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c24-dividir-os-chats-em-pastas" class="md-nav__link">
+    C24 - Dividir os chats em pastas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c25-manter-os-arquivos-e-mensagens-salvos-na-nuvem" class="md-nav__link">
+    C25 - Manter os arquivos e mensagens salvos na "nuvem"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c26-encontrar-pessoas-proximas" class="md-nav__link">
+    C26 - Encontrar pessoas próximas
+  </a>
+  
+    <nav class="md-nav" aria-label="C26 - Encontrar pessoas próximas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c27-realizar-cadastro-no-aplicativo" class="md-nav__link">
+    C27 - Realizar cadastro no aplicativo
+  </a>
+  
+    <nav class="md-nav" aria-label="C27 - Realizar cadastro no aplicativo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_1" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_1" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c28-realizar-login-no-aplicativo" class="md-nav__link">
+    C28 - Realizar login no aplicativo
+  </a>
+  
+    <nav class="md-nav" aria-label="C28 - Realizar login no aplicativo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_2" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_2" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c29-editar-perfil" class="md-nav__link">
+    C29 Editar perfil
+  </a>
+  
+    <nav class="md-nav" aria-label="C29 Editar perfil">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_3" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_3" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c30-visualizar-perfil" class="md-nav__link">
+    C30 - Visualizar perfil
+  </a>
+  
+    <nav class="md-nav" aria-label="C30 - Visualizar perfil">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_4" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_4" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c31-adicionar-novos-contatos" class="md-nav__link">
+    C31 - Adicionar novos contatos
+  </a>
+  
+    <nav class="md-nav" aria-label="C31 - Adicionar novos contatos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_5" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_5" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c32-visualizar-o-perfil-dos-seus-contatos" class="md-nav__link">
+    C32 - Visualizar o perfil dos seus contatos
+  </a>
+  
+    <nav class="md-nav" aria-label="C32 - Visualizar o perfil dos seus contatos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_6" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_6" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c33-responder-uma-mensagem-enviada-num-grupo-no-privado-da-pessoa-que-a-enviou" class="md-nav__link">
+    C33 - Responder uma mensagem enviada num grupo no privado da pessoa que a enviou
+  </a>
+  
+    <nav class="md-nav" aria-label="C33 - Responder uma mensagem enviada num grupo no privado da pessoa que a enviou">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_7" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_7" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c34-salvar-e-visualizar-as-mensagens-salvas-de-uma-conversa-em-especifico" class="md-nav__link">
+    C34 - Salvar e visualizar as mensagens salvas de uma conversa em específico
+  </a>
+  
+    <nav class="md-nav" aria-label="C34 - Salvar e visualizar as mensagens salvas de uma conversa em específico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_8" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_8" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c35-compartilhar-localizacao" class="md-nav__link">
+    C35 - Compartilhar localização
+  </a>
+  
+    <nav class="md-nav" aria-label="C35 - Compartilhar localização">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_9" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_9" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c36-visualizar-suas-conversas" class="md-nav__link">
+    C36 - Visualizar suas conversas
+  </a>
+  
+    <nav class="md-nav" aria-label="C36 - Visualizar suas conversas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_10" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_10" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c37-acessar-suas-conversas" class="md-nav__link">
+    C37 - Acessar suas conversas
+  </a>
+  
+    <nav class="md-nav" aria-label="C37 - Acessar suas conversas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_11" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_11" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c38-criar-nova-conversa" class="md-nav__link">
+    C38 - Criar nova conversa
+  </a>
+  
+    <nav class="md-nav" aria-label="C38 - Criar nova conversa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_12" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_12" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c39-criar-chat-secreto" class="md-nav__link">
+    C39 - Criar chat secreto
+  </a>
+  
+    <nav class="md-nav" aria-label="C39 - Criar chat secreto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_13" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_13" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c40-visualizar-contato-online" class="md-nav__link">
+    C40 - Visualizar contato online
+  </a>
+  
+    <nav class="md-nav" aria-label="C40 - Visualizar contato online">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_14" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_14" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c41-procurar-contatos" class="md-nav__link">
+    C41 - Procurar contatos
+  </a>
+  
+    <nav class="md-nav" aria-label="C41 - Procurar contatos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_15" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_15" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c42-ordenar-contatos" class="md-nav__link">
+    C42 - Ordenar contatos
+  </a>
+  
+    <nav class="md-nav" aria-label="C42 - Ordenar contatos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_16" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_16" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c43-compartilhar-um-contato" class="md-nav__link">
+    C43 - Compartilhar um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C43 - Compartilhar um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_17" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_17" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c44-enviar-uma-musica" class="md-nav__link">
+    C44 - Enviar uma música
+  </a>
+  
+    <nav class="md-nav" aria-label="C44 - Enviar uma música">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_18" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_18" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c45-desativar-notificacoes-do-contato" class="md-nav__link">
+    C45 - Desativar notificações do contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C45 - Desativar notificações do contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_19" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_19" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c46-visualizar-grupos-que-possui-em-comum-com-um-contato" class="md-nav__link">
+    C46 - Visualizar grupos que possui em comum com um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C46 - Visualizar grupos que possui em comum com um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_20" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_20" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c47-bloquear-um-contato" class="md-nav__link">
+    C47 - Bloquear um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C47 - Bloquear um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_21" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_21" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c48-editar-um-contato" class="md-nav__link">
+    C48 - Editar um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C48 - Editar um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_22" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_22" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c49-apagar-um-contato" class="md-nav__link">
+    C49 - Apagar um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C49 - Apagar um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_23" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_23" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-dados-percentuais" class="md-nav__link">
+    2. Dados Percentuais
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Dados Percentuais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenarios" class="md-nav__link">
+    Cenários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#perguntas" class="md-nav__link">
+    Perguntas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-conclusao" class="md-nav__link">
+    3. Conclusão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lexico/" class="md-nav__link">
+        Verificação dos Léxicos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../nfr-framework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../planejamento/" class="md-nav__link">
+        Verificação
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rich-picture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      <label class="md-nav__link" for="__nav_8">
+        Modelagem
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/Especifica%C3%A7%C3%A3o_Suplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/NFR_Framework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/casos_de_uso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_5" type="checkbox" id="__nav_8_5" >
+      
+      <label class="md-nav__link" for="__nav_8_5">
+        Backlog
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Backlog" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_5">
+          <span class="md-nav__icon md-icon"></span>
+          Backlog
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/backlog/backlog_do_produto/" class="md-nav__link">
+        Backlog do Produto
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/backlog/ep01_epico_perfil/" class="md-nav__link">
+        EP01: Épico Perfil
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/backlog/ep02_epico_contatos/" class="md-nav__link">
+        EP02: Épico Contatos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/backlog/ep03_epico_chamada/" class="md-nav__link">
+        EP03: Épico Chamada
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/backlog/ep04_epico_chat/" class="md-nav__link">
+        EP04: Épico Chat
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/backlog/ep05_epico_mensagens/" class="md-nav__link">
+        EP05: Épico Mensagem
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/backlog/ep06_epico_pessoas_proximas/" class="md-nav__link">
+        EP06: Épico Pessoas Próximas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/backlog/ep07_epico_configuracoes/" class="md-nav__link">
+        EP07: Épico Configurações
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8_6" type="checkbox" id="__nav_8_6" >
+      
+      <label class="md-nav__link" for="__nav_8_6">
+        Cenários
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Cenários" data-md-level="2">
+        <label class="md-nav__title" for="__nav_8_6">
+          <span class="md-nav__icon md-icon"></span>
+          Cenários
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/TodosOsCenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario01/" class="md-nav__link">
+        Cenário 01 - Enviar ou receber mensagens de texto
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario02/" class="md-nav__link">
+        Cenário 02 - Enviar ou receber mensagens de áudio
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario03/" class="md-nav__link">
+        Cenário 03 - Enviar ou receber arquivos de imagem da galeria
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario04/" class="md-nav__link">
+        Cenário 04 - Enviar ou receber arquivos de imagem capturados na hora
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario05/" class="md-nav__link">
+        Cenário 05 - Enviar ou receber arquivos de vídeo da galeria
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario06/" class="md-nav__link">
+        Cenário 06 - Enviar ou receber arquivos de vídeos capturados na hora
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario07/" class="md-nav__link">
+        Cenário 07 - Realizar chamadas de voz individuais
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario08/" class="md-nav__link">
+        Cenário 08 - Realizar chamadas de voz em grupo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario09/" class="md-nav__link">
+        Cenário 09 - Realizar chamadas de vídeo individuais
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario10/" class="md-nav__link">
+        Cenário 10 - Realizar chamadas de vídeo em grupo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario11/" class="md-nav__link">
+        Cenário 11 - Criar grupos de mensagens
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario12/" class="md-nav__link">
+        Cenário 12 - Criar enquetes
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario13/" class="md-nav__link">
+        Cenário 13 - Salvar mensagens
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario14/" class="md-nav__link">
+        Cenário 14 - Encaminhar mensagens
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario15/" class="md-nav__link">
+        Cenário 15 - Excluir mensagens enviadas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario16/" class="md-nav__link">
+        Cenário 16 - Enviar ou receber arquivos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario17/" class="md-nav__link">
+        Cenário 17 - Utilização e configuração de bots
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario18/" class="md-nav__link">
+        Cenário 18 - Alternância de contas por meio do mesmo dispositivo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario19/" class="md-nav__link">
+        Cenário 19 - Controle de frequência de mensagens que podem ser enviadas nos grupos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario20/" class="md-nav__link">
+        Cenário 20 - Ver confirmação de uma mensagem lida em grupos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario21/" class="md-nav__link">
+        Cenário 21 - Bloquear o acesso ao aplicativo por meio da digital
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario22/" class="md-nav__link">
+        Cenário 22 - Gerenciar o armazenamento interno ocupado por uma conversa ou grupo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario23/" class="md-nav__link">
+        Cenário 23 - Manter o histórico de mensagens do grupo para novos integrantes
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario24/" class="md-nav__link">
+        Cenário 24 - Dividir os chats em pastas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario25/" class="md-nav__link">
+        Cenário 25 - Manter os arquivos e mensagens salvos na "nuvem"
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario26/" class="md-nav__link">
+        Cenário 26 - Encontrar pessoas próximas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario27/" class="md-nav__link">
+        Cenário 27 - Realizar cadastro no aplicativo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario28/" class="md-nav__link">
+        Cenário 28 - Realizar login no aplicativo
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario29/" class="md-nav__link">
+        Cenário 29 - Editar perfil
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario30/" class="md-nav__link">
+        Cenário 30 - Visualizar perfil
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario31/" class="md-nav__link">
+        Cenário 31 - Adicionar novos contatos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario32/" class="md-nav__link">
+        Cenário 32 - Visualizar o perfil dos seus contatos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario33/" class="md-nav__link">
+        Cenário 33 - Responder uma mensagem enviada num grupo no privado da pessoa que a enviou
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario34/" class="md-nav__link">
+        Cenário 34 - Salvar e visualizar as mensagens salvas de uma conversa em específico
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario35/" class="md-nav__link">
+        Cenário 35 - Compartilhar localização
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario36/" class="md-nav__link">
+        Cenário 36 - Visualizar suas conversas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario37/" class="md-nav__link">
+        Cenário 37 - Acessar suas conversas
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario38/" class="md-nav__link">
+        Cenário 38 - Criar nova conversa
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario39/" class="md-nav__link">
+        Cenário 39 - Criar chat secreto
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario40/" class="md-nav__link">
+        Cenário 40 - Visualizar contato online
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario41/" class="md-nav__link">
+        Cenário 41 - Procurar contatos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario42/" class="md-nav__link">
+        Cenário 42 - Ordenar contatos
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario43/" class="md-nav__link">
+        Cenário 43 - Compartilhar um contato
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario44/" class="md-nav__link">
+        Cenário 44 - Enviar uma música
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario45/" class="md-nav__link">
+        Cenário 45 - Desativar notificações do contato
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario46/" class="md-nav__link">
+        Cenário 46 - Visualizar grupos que possui em comum com um contato
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario47/" class="md-nav__link">
+        Cenário 47 - Bloquear um contato
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario48/" class="md-nav__link">
+        Cenário 48 - Editar um contato
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modelagem/cen%C3%A1rios/cenario49/" class="md-nav__link">
+        Cenário 49 - Apagar um contato
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-reuniao-de-inspecao" class="md-nav__link">
+    1. Reunião de Inspeção
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Reunião de Inspeção">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#checklist" class="md-nav__link">
+    Checklist
+  </a>
+  
+    <nav class="md-nav" aria-label="Checklist">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#c01-enviar-ou-receber-mensagens-de-texto" class="md-nav__link">
+    C01 - Enviar ou receber mensagens de texto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c02-enviar-ou-receber-mensagens-de-audio" class="md-nav__link">
+    C02 - Enviar ou receber mensagens de áudio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c03-enviar-ou-receber-arquivos-de-imagem-da-galeria" class="md-nav__link">
+    C03 - Enviar ou receber arquivos de imagem da galeria
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c04-enviar-ou-receber-arquivos-de-imagem-capturados-na-hora" class="md-nav__link">
+    C04 - Enviar ou receber arquivos de imagem capturados na hora
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c05-enviar-ou-receber-arquivos-de-video-da-galeria" class="md-nav__link">
+    C05 - Enviar ou receber arquivos de vídeo da galeria
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c06-enviar-ou-receber-arquivos-de-videos-capturados-na-hora" class="md-nav__link">
+    C06 - Enviar ou receber arquivos de vídeos capturados na hora
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c07-realizar-chamadas-de-voz-individuais" class="md-nav__link">
+    C07 - Realizar chamadas de voz individuais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c08-realizar-chamadas-de-voz-em-grupo" class="md-nav__link">
+    C08 - Realizar chamadas de voz em grupo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c09-realizar-chamadas-de-video-individuais" class="md-nav__link">
+    C09 - Realizar chamadas de vídeo individuais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c10-realizar-chamadas-de-video-em-grupo" class="md-nav__link">
+    C10 - Realizar chamadas de vídeo em grupo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c11-criar-grupos-de-mensagens" class="md-nav__link">
+    C11 - Criar grupos de mensagens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c12-criar-enquetes" class="md-nav__link">
+    C12 - Criar enquetes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c13-salvar-mensagens" class="md-nav__link">
+    C13 - Salvar mensagens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c14-encaminhar-mensagens" class="md-nav__link">
+    C14 - Encaminhar mensagens
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c15-excluir-mensagens-enviadas" class="md-nav__link">
+    C15 - Excluir mensagens enviadas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c16-enviar-ou-receber-arquivos" class="md-nav__link">
+    C16 - Enviar ou receber arquivos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c17-utilizacao-e-configuracao-de-bots" class="md-nav__link">
+    C17 - Utilização e configuração de bots
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c18-alternancia-de-contas-por-meio-do-mesmo-dispositivo" class="md-nav__link">
+    C18 - Alternância de contas por meio do mesmo dispositivo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c19-controle-de-frequencia-de-mensagens-que-podem-ser-enviadas-nos-grupos" class="md-nav__link">
+    C19 - Controle de frequência de mensagens que podem ser enviadas nos grupos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c20-ver-confirmacao-de-uma-mensagem-lida-em-grupos" class="md-nav__link">
+    C20 - Ver confirmação de uma mensagem lida em grupos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c21-bloquear-o-acesso-ao-aplicativo-por-meio-da-digital" class="md-nav__link">
+    C21 - Bloquear o acesso ao aplicativo por meio da digital
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c22-gerenciar-o-armazenamento-interno-ocupado-por-uma-conversa-ou-grupo" class="md-nav__link">
+    C22 - Gerenciar o armazenamento interno ocupado por uma conversa ou grupo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c23-manter-o-historico-de-mensagens-do-grupo-para-novos-integrantes" class="md-nav__link">
+    C23 - Manter o histórico de mensagens do grupo para novos integrantes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c24-dividir-os-chats-em-pastas" class="md-nav__link">
+    C24 - Dividir os chats em pastas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c25-manter-os-arquivos-e-mensagens-salvos-na-nuvem" class="md-nav__link">
+    C25 - Manter os arquivos e mensagens salvos na "nuvem"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c26-encontrar-pessoas-proximas" class="md-nav__link">
+    C26 - Encontrar pessoas próximas
+  </a>
+  
+    <nav class="md-nav" aria-label="C26 - Encontrar pessoas próximas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c27-realizar-cadastro-no-aplicativo" class="md-nav__link">
+    C27 - Realizar cadastro no aplicativo
+  </a>
+  
+    <nav class="md-nav" aria-label="C27 - Realizar cadastro no aplicativo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_1" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_1" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c28-realizar-login-no-aplicativo" class="md-nav__link">
+    C28 - Realizar login no aplicativo
+  </a>
+  
+    <nav class="md-nav" aria-label="C28 - Realizar login no aplicativo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_2" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_2" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c29-editar-perfil" class="md-nav__link">
+    C29 Editar perfil
+  </a>
+  
+    <nav class="md-nav" aria-label="C29 Editar perfil">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_3" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_3" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c30-visualizar-perfil" class="md-nav__link">
+    C30 - Visualizar perfil
+  </a>
+  
+    <nav class="md-nav" aria-label="C30 - Visualizar perfil">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_4" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_4" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c31-adicionar-novos-contatos" class="md-nav__link">
+    C31 - Adicionar novos contatos
+  </a>
+  
+    <nav class="md-nav" aria-label="C31 - Adicionar novos contatos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_5" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_5" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c32-visualizar-o-perfil-dos-seus-contatos" class="md-nav__link">
+    C32 - Visualizar o perfil dos seus contatos
+  </a>
+  
+    <nav class="md-nav" aria-label="C32 - Visualizar o perfil dos seus contatos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_6" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_6" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c33-responder-uma-mensagem-enviada-num-grupo-no-privado-da-pessoa-que-a-enviou" class="md-nav__link">
+    C33 - Responder uma mensagem enviada num grupo no privado da pessoa que a enviou
+  </a>
+  
+    <nav class="md-nav" aria-label="C33 - Responder uma mensagem enviada num grupo no privado da pessoa que a enviou">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_7" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_7" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c34-salvar-e-visualizar-as-mensagens-salvas-de-uma-conversa-em-especifico" class="md-nav__link">
+    C34 - Salvar e visualizar as mensagens salvas de uma conversa em específico
+  </a>
+  
+    <nav class="md-nav" aria-label="C34 - Salvar e visualizar as mensagens salvas de uma conversa em específico">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_8" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_8" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c35-compartilhar-localizacao" class="md-nav__link">
+    C35 - Compartilhar localização
+  </a>
+  
+    <nav class="md-nav" aria-label="C35 - Compartilhar localização">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_9" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_9" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c36-visualizar-suas-conversas" class="md-nav__link">
+    C36 - Visualizar suas conversas
+  </a>
+  
+    <nav class="md-nav" aria-label="C36 - Visualizar suas conversas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_10" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_10" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c37-acessar-suas-conversas" class="md-nav__link">
+    C37 - Acessar suas conversas
+  </a>
+  
+    <nav class="md-nav" aria-label="C37 - Acessar suas conversas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_11" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_11" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c38-criar-nova-conversa" class="md-nav__link">
+    C38 - Criar nova conversa
+  </a>
+  
+    <nav class="md-nav" aria-label="C38 - Criar nova conversa">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_12" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_12" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c39-criar-chat-secreto" class="md-nav__link">
+    C39 - Criar chat secreto
+  </a>
+  
+    <nav class="md-nav" aria-label="C39 - Criar chat secreto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_13" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_13" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c40-visualizar-contato-online" class="md-nav__link">
+    C40 - Visualizar contato online
+  </a>
+  
+    <nav class="md-nav" aria-label="C40 - Visualizar contato online">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_14" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_14" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c41-procurar-contatos" class="md-nav__link">
+    C41 - Procurar contatos
+  </a>
+  
+    <nav class="md-nav" aria-label="C41 - Procurar contatos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_15" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_15" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c42-ordenar-contatos" class="md-nav__link">
+    C42 - Ordenar contatos
+  </a>
+  
+    <nav class="md-nav" aria-label="C42 - Ordenar contatos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_16" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_16" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c43-compartilhar-um-contato" class="md-nav__link">
+    C43 - Compartilhar um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C43 - Compartilhar um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_17" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_17" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c44-enviar-uma-musica" class="md-nav__link">
+    C44 - Enviar uma música
+  </a>
+  
+    <nav class="md-nav" aria-label="C44 - Enviar uma música">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_18" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_18" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c45-desativar-notificacoes-do-contato" class="md-nav__link">
+    C45 - Desativar notificações do contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C45 - Desativar notificações do contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_19" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_19" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c46-visualizar-grupos-que-possui-em-comum-com-um-contato" class="md-nav__link">
+    C46 - Visualizar grupos que possui em comum com um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C46 - Visualizar grupos que possui em comum com um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_20" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_20" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c47-bloquear-um-contato" class="md-nav__link">
+    C47 - Bloquear um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C47 - Bloquear um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_21" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_21" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c48-editar-um-contato" class="md-nav__link">
+    C48 - Editar um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C48 - Editar um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_22" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_22" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c49-apagar-um-contato" class="md-nav__link">
+    C49 - Apagar um contato
+  </a>
+  
+    <nav class="md-nav" aria-label="C49 - Apagar um contato">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#problemas_23" class="md-nav__link">
+    Problemas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#possiveis-solucoes_23" class="md-nav__link">
+    Possíveis soluções
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-dados-percentuais" class="md-nav__link">
+    2. Dados Percentuais
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Dados Percentuais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenarios" class="md-nav__link">
+    Cenários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#perguntas" class="md-nav__link">
+    Perguntas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-conclusao" class="md-nav__link">
+    3. Conclusão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias" class="md-nav__link">
+    4. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="verificacao-dos-cenarios">Verificação dos Cenários</h1>
+<h2 id="1-reuniao-de-inspecao">1. Reunião de Inspeção</h2>
+<h3 id="checklist">Checklist</h3>
+<h4 id="c01-enviar-ou-receber-mensagens-de-texto">C01 - Enviar ou receber mensagens de texto</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c02-enviar-ou-receber-mensagens-de-audio">C02 - Enviar ou receber mensagens de áudio</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c03-enviar-ou-receber-arquivos-de-imagem-da-galeria">C03 - Enviar ou receber arquivos de imagem da galeria</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c04-enviar-ou-receber-arquivos-de-imagem-capturados-na-hora">C04 - Enviar ou receber arquivos de imagem capturados na hora</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c05-enviar-ou-receber-arquivos-de-video-da-galeria">C05 - Enviar ou receber arquivos de vídeo da galeria</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c06-enviar-ou-receber-arquivos-de-videos-capturados-na-hora">C06 - Enviar ou receber arquivos de vídeos capturados na hora</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c07-realizar-chamadas-de-voz-individuais">C07 - Realizar chamadas de voz individuais</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c08-realizar-chamadas-de-voz-em-grupo">C08 - Realizar chamadas de voz em grupo</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c09-realizar-chamadas-de-video-individuais">C09 - Realizar chamadas de vídeo individuais</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c10-realizar-chamadas-de-video-em-grupo">C10 - Realizar chamadas de vídeo em grupo</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c11-criar-grupos-de-mensagens">C11 - Criar grupos de mensagens</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c12-criar-enquetes">C12 - Criar enquetes</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c13-salvar-mensagens">C13 - Salvar mensagens</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c14-encaminhar-mensagens">C14 - Encaminhar mensagens</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c15-excluir-mensagens-enviadas">C15 - Excluir mensagens enviadas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c16-enviar-ou-receber-arquivos">C16 - Enviar ou receber arquivos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c17-utilizacao-e-configuracao-de-bots">C17 - Utilização e configuração de bots</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c18-alternancia-de-contas-por-meio-do-mesmo-dispositivo">C18 - Alternância de contas por meio do mesmo dispositivo</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c19-controle-de-frequencia-de-mensagens-que-podem-ser-enviadas-nos-grupos">C19 - Controle de frequência de mensagens que podem ser enviadas nos grupos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c20-ver-confirmacao-de-uma-mensagem-lida-em-grupos">C20 - Ver confirmação de uma mensagem lida em grupos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c21-bloquear-o-acesso-ao-aplicativo-por-meio-da-digital">C21 - Bloquear o acesso ao aplicativo por meio da digital</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c22-gerenciar-o-armazenamento-interno-ocupado-por-uma-conversa-ou-grupo">C22 - Gerenciar o armazenamento interno ocupado por uma conversa ou grupo</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c23-manter-o-historico-de-mensagens-do-grupo-para-novos-integrantes">C23 - Manter o histórico de mensagens do grupo para novos integrantes</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c24-dividir-os-chats-em-pastas">C24 - Dividir os chats em pastas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c25-manter-os-arquivos-e-mensagens-salvos-na-nuvem">C25 - Manter os arquivos e mensagens salvos na "nuvem"</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h4 id="c26-encontrar-pessoas-proximas">C26 - Encontrar pessoas próximas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c27-realizar-cadastro-no-aplicativo">C27 - Realizar cadastro no aplicativo</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_1">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_1">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c28-realizar-login-no-aplicativo">C28 - Realizar login no aplicativo</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_2">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_2">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c29-editar-perfil">C29 Editar perfil</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_3">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_3">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c30-visualizar-perfil">C30 - Visualizar perfil</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_4">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_4">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c31-adicionar-novos-contatos">C31 - Adicionar novos contatos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_5">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_5">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c32-visualizar-o-perfil-dos-seus-contatos">C32 - Visualizar o perfil dos seus contatos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_6">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_6">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c33-responder-uma-mensagem-enviada-num-grupo-no-privado-da-pessoa-que-a-enviou">C33 - Responder uma mensagem enviada num grupo no privado da pessoa que a enviou</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_7">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_7">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c34-salvar-e-visualizar-as-mensagens-salvas-de-uma-conversa-em-especifico">C34 - Salvar e visualizar as mensagens salvas de uma conversa em específico</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_8">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_8">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c35-compartilhar-localizacao">C35 - Compartilhar localização</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_9">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_9">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c36-visualizar-suas-conversas">C36 - Visualizar suas conversas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_10">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_10">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c37-acessar-suas-conversas">C37 - Acessar suas conversas</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_11">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_11">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c38-criar-nova-conversa">C38 - Criar nova conversa</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_12">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_12">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c39-criar-chat-secreto">C39 - Criar chat secreto</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_13">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_13">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c40-visualizar-contato-online">C40 - Visualizar contato online</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_14">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_14">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c41-procurar-contatos">C41 - Procurar contatos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_15">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_15">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c42-ordenar-contatos">C42 - Ordenar contatos</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_16">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_16">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c43-compartilhar-um-contato">C43 - Compartilhar um contato</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_17">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_17">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c44-enviar-uma-musica">C44 - Enviar uma música</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_18">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_18">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c45-desativar-notificacoes-do-contato">C45 - Desativar notificações do contato</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_19">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_19">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c46-visualizar-grupos-que-possui-em-comum-com-um-contato">C46 - Visualizar grupos que possui em comum com um contato</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_20">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_20">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c47-bloquear-um-contato">C47 - Bloquear um contato</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_21">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_21">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c48-editar-um-contato">C48 - Editar um contato</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_22">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_22">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h4 id="c49-apagar-um-contato">C49 - Apagar um contato</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">✖</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">✔</td>
+</tr>
+</tbody>
+</table>
+<h5 id="problemas_23">Problemas</h5>
+<p>7 - A avaliação não descreve um comportamento que irá garantir o objetivo.</p>
+<h5 id="possiveis-solucoes_23">Possíveis soluções</h5>
+<p>7 - Analisar o cenário para descrever uma restrição correta na tabela.</p>
+<h2 id="2-dados-percentuais">2. Dados Percentuais</h2>
+<h3 id="cenarios">Cenários</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Cenários</th>
+<th align="center">Porcentagem de sucesso</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">C01</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C02</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C03</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C04</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C05</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C06</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C07</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C08</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C09</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C10</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C11</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C12</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C13</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C14</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C15</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C16</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C17</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C18</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C19</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C20</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C21</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C22</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C23</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C24</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C25</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">C26</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C27</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C29</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C29</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C30</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C31</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C32</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C33</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C34</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C35</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C36</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C37</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C38</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C39</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C40</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C41</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C42</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C43</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C44</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C45</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C46</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C47</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C48</td>
+<td align="center">89%</td>
+</tr>
+<tr>
+<td align="center">C49</td>
+<td align="center">89%</td>
+</tr>
+</tbody>
+</table>
+<h3 id="perguntas">Perguntas</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Número</th>
+<th>Questão</th>
+<th align="center">Porcentagem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td>O título é auto-explicativo?</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td>O objetivo é claro?</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td>O ambiente contextualiza o cenário?</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td>Os atores foram listados de forma correta?</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td>As ações guiam o ator de forma a realizar a tarefa com sucesso?</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td>Caso exista, os eventos estão condizentes com o objetivo?</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td>A avaliação descreve um comportamento que garante o cumprimento do objetivo?</td>
+<td align="center">53%</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td>O planejamento induz a realização do objetivo?</td>
+<td align="center">100%</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td>Os eventos estão dispostos da forma proposta?</td>
+<td align="center">100%</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-conclusao">3. Conclusão</h2>
+<p>Foi verificado que o documento de Cenários de Uso falta apenas que a pergunta 7 seja satisfeita, e agora precisa ser modificado e feito as correções necessárias.</p>
+<h2 id="4-referencias">4. Referências</h2>
+<ul>
+<li>WIEGERS, Karl; BEATTY, Joy. "Software Requirements". Microsoft Press, 2013.</li>
+</ul>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Modificação</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>14/04/2021</td>
+<td>Criação do documento</td>
+<td>Ítalo Alves</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>15/04/2021</td>
+<td>Revisão do documento</td>
+<td>Ítalo Alves</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../caso_de_uso/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Verificação dos Casos de Uso
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../lexico/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Verificação dos Léxicos
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      
+    
+  </body>
+</html>
