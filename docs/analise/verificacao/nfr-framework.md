@@ -37,10 +37,11 @@ Esse é o check-list que servirá de base para a inspeção do NFR Framework.
 |12|SIM|SIM|SIM|SIM|
 
 ## Conclusão
-De acordo com a verificação, o documento está de acordo com o que se espera e está bem estruturado, com execeção das contribuições positivas que não estão corretamente representadas em algumas situações.
+De acordo com a verificação, o documento está de acordo com o que se espera e está bem estruturado, com exceção das contribuições positivas que não estão corretamente representadas em algumas situações.
 
 ## Versionamento
 |   Data   | Versão |        Descrição              |            Autor(es)           |
 | :------: | :----: |    :---------------------:    | :----------------------------: |
 |13.04.2021|   1.0  |     Criação do documento      |     Tiago Samuel Rodrigues     |
-|          |        |                               |                                |
+| 1.1 | 30/04/2021 | Revisão do documento | Lorrany Oliveira |
+

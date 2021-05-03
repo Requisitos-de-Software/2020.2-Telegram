@@ -7,7 +7,7 @@
 ## Participantes
 
 - Hérick Portugues
-- Italo Alves
+- Ítalo Alves
 
 ## Resultado
 
@@ -62,25 +62,27 @@
 |  RF47  |                            O usuário deve poder bloquear um contato                             |                               Análise de Protocolo                                |
 |  RF48  |                             O usuário deve poder editar um contato                              |                               Análise de Protocolo                                |
 |  RF49  |                             O usuário deve poder apagar um contato                              |                               Análise de Protocolo                                |
-|  RF50  |             O usuário deve poder convidar amigos para o aplicativo                             |                               Backlog do Produto                                  |
-|  RF51  |             O usuário deve poder ficar visível para pessoas próximas                             |                               Backlog do Produto                                  |
-|  RF52  |             O usuário deve poder criar/participar de grupos locais                             |                               Backlog do Produto                                  |
-|  RF53  |             O usuário deve poder criar canais de voz locais                             |                               Backlog do Produto  |
-|  RF54  |             O usuário deve poder apagar conversas                        |                                Backlog do Produto                                 |
-|  RF55  |             O usuário deve poder fixar conversas locais                             |                               Backlog do Produto                                  |
-|  RF56  |             O usuário deve poder arquivar conversas locais               |                               Backlog do Produto                                  |
-|  RF57  |             O usuário deve poder alterar a visualização da aba de chamadas                             |                               Backlog do Produto                                  |
-|  RF58  |             O usuário deve poder alterar as configurações de privacidade e segurança                            |                               Backlog do Produto                                  |
-|  RF59  |             O usuário deve poder alterar as configurações de dados e armazenamento               |                               Backlog do Produto                                  |
-|  RF60  |             O usuário deve poder alterar as configurações de aparência                     |                               Backlog do Produto                                  |
-|  RF61  |             O usuário deve poder alterar o idioma de exibição do aplicativo        |                               Backlog do Produto                                  |
-|  RF62  |             O usuário deve poder editar e gerenciar pacotes de stickers          |                               Backlog do Produto                                  |  
-       
+|  RF50  |                     O usuário deve poder convidar amigos para o aplicativo                      |                                Backlog do Produto                                 |
+|  RF51  |                    O usuário deve poder ficar visível para pessoas próximas                     |                                Backlog do Produto                                 |
+|  RF52  |                     O usuário deve poder criar/participar de grupos locais                      |                                Backlog do Produto                                 |
+|  RF53  |                         O usuário deve poder criar canais de voz locais                         |                                Backlog do Produto                                 |
+|  RF54  |                              O usuário deve poder apagar conversas                              |                                Backlog do Produto                                 |
+|  RF55  |                           O usuário deve poder fixar conversas locais                           |                                Backlog do Produto                                 |
+|  RF56  |                         O usuário deve poder arquivar conversas locais                          |                                Backlog do Produto                                 |
+|  RF57  |                 O usuário deve poder alterar a visualização da aba de chamadas                  |                                Backlog do Produto                                 |
+|  RF58  |            O usuário deve poder alterar as configurações de privacidade e segurança             |                                Backlog do Produto                                 |
+|  RF59  |             O usuário deve poder alterar as configurações de dados e armazenamento              |                                Backlog do Produto                                 |
+|  RF60  |                   O usuário deve poder alterar as configurações de aparência                    |                                Backlog do Produto                                 |
+|  RF61  |                 O usuário deve poder alterar o idioma de exibição do aplicativo                 |                                Backlog do Produto                                 |
+|  RF62  |                   O usuário deve poder editar e gerenciar pacotes de stickers                   |                                Backlog do Produto                                 |
+
+## Referências Bibliográficas
+
 ## Versionamento
 
-|    Data    | Versão |                     Descrição                     |              Autor(es)             |
+|    Data    | Versão |                     Descrição                     |             Autor(es)              |
 | :--------: | :----: | :-----------------------------------------------: | :--------------------------------: |
-| 12.03.2021 |  1.0   | Agrupamento dos requisitos e criação do documento |    Hérick Portugues, Italo Alves   |
+| 12.03.2021 |  1.0   | Agrupamento dos requisitos e criação do documento |   Hérick Portugues, Ítalo Alves    |
 | 12.03.2021 |  2.0   |     Revisa e corrige formatações do documento     |          Lucas Boaventura          |
 | 01.04.2021 |  2.1   |           Atualiza tabela de requisitos           |          Hérick Portugues          |
-| 01.04.2021 |  2.2   |            Adiciona novos requisitos              | Hérick Portugues, Lorrany Oliveira |
+| 01.04.2021 |  2.2   |             Adiciona novos requisitos             | Hérick Portugues, Lorrany Oliveira |

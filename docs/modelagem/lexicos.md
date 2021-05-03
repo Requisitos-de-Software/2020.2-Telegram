@@ -1,12 +1,12 @@
 # Léxicos
-## Introdução
+## 1. Introdução
 <p align='justify'> &emsp;O processo de criação de requisitos de um sistema pode ser dividido em três grandes atividades: Elicitação, modelagem e análise. Ao longo da etapa de elicitação, a concepção do produto e de seus domínios são diretamente influenciada pelos clientes, usuários e diversos outros profissionais de diferentes áreas, tornando assim mais fácil a ocorrência da utilização de termos técnicos e expressões específicas que podem facilmente ser interpretadas de formas diferentes pelos leitores. A criação de léxico tem como principal objetivo a necessidade de que todos os participantes do processo de desenvolvimento do produto compartilhem da mesma compreensão sobre os termos próprios da aplicação, e, além de ser uma exigêcia de processos de qualidade, servem também de fonte de consulta para os participantes envolvidos na engenharia de requisitos. O método utilizado para a identificação de símbolos para o léxico é dirigida ao <strong>Léxico Ampliado da Linguagem (LAL)</strong>, onde cada símbolo é descrito com noção(o que significa o símbolo), impacto(descrição de efeito dos símbolos na aplicação ou vice-versa) e um tipo(verbo, objeto ou estado). Sendo assim, os léxicos serão padronizados com a utilização da tabela abaixo:</p>
 
 |   Classificação   |  Noção  | Impacto | Sinônimos |
 | :---------------: | :-----: | :-----: | :-------: |
 |Objeto/Estado/Verbo|Denotação|Conotação| Opcional  |
 
-## Léxicos 
+## 2. Léxicos 
 #### L1 - **Mensagens Salvas**
 |   Classificação   |  Noção  | Impacto | Sinônimos |
 | ----------------- | ------- | ------- | --------- |
@@ -65,15 +65,65 @@
 #### L12 - **Bloquear**
 |   Classificação   |  Noção  | Impacto | Sinônimos |
 | :---------------: | :-----: | :-----: | :-------: |
-|Verbo|Ação relacionada com o bloqueio de uma conta por um usuário|O usuário não poderá mais receber mensagens d contato que foi bloqueado| Ignorar, privar-se |
+|Verbo|Ação relacionada com o bloqueio de uma conta por um usuário|O usuário não poderá mais receber mensagens do contato que foi bloqueado| Ignorar, privar-se |
 
-## Referências
+#### L13 - **Usuário**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Nome para identificar a pessoa que está utilizando o aplicativo| Realiza a maioria das ações no aplicativo| Desfrutador, Usador |
+
+#### L14 - **Contato**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Um usuário do aplicativo que está na sua lista de contatos| - | - |
+
+#### L15 - **Online**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Status de um usuário, mostrando que ele está utilizando o aplicativo no exato momento| - | Conectado, Disponível |
+
+#### L16 - **Notificação**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Mensagem que notifica um usuário sobre um ocorrido dentro do aplicativo| Permite que usuário sejam notificados de mensagens novas ou outros avisos do aplicativo | Alerta, Aviso |
+
+#### L17 - **Chat**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Histórico de mensagens enviadas entre dois ou mais usuários| Permite guardar as mensagens enviadas e recebidas em um único local| Conversa, Histórico de Mensagens |
+
+#### L18 - **Chat em Grupo**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Conjunto de usuários em um mesmo chat| Permite enviar mensagens para vários usuários de uma vez, assim como receber mensagens de vários usuários, mantendo todas em um mesmo histórico compartilhado entre esses usuários | Agrupamento |
+
+#### L19 - **Pessoas próximas**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Indica as pessoas próximas à você| Permite iniciar conversas com pessoas a poucos quilômetros de você | - |
+
+#### L20 - **Fixar Conversa**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Ação|Mantém a conversa no topo da lista de conversas| Permite acessar as conversas com determinados contatos ou de determinados grupos mais rapidamente | - |
+
+#### L21 - **Arquivar Conversa**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Ação|Move a conversa para uma aba de conversas arquivadas| Permite guardar a conversa, não deixando ela aparecer na listagem principal de conversas | - |
+
+#### L22 - **Sticker**
+|   Classificação   |  Noção  | Impacto | Sinônimos |
+| :---------------: | :-----: | :-----: | :-------: |
+|Objeto|Adesivo/Figurinha enviada como uma mensagem| Permite uma maior expressão por parte dos usuários em suas conversas  | Adesivo, Figurinha |
+
+## 3. Referências Bibliográfica
 - SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 10;
 - SAYÃO, Miriam; DE CARVALHO, Gustavo R. Construção do léxico de aplicações.
 
-## Versionamento
+## 4. Versionamento
 |   Data     | Versão |              Descrição                 |   Autor(es)   |
 | :--------: | :----: | :------------------------------------: | :-----------: |
 | 21/03/2021 |  1.0   | Criação e desenvolvimento do documento | Brenda Santos |
-| 22/03/2021 |  2.0   | Revisa e formata documento | Lucas Boaventura |
-| 23/03/2021 |  2.0   | Revisão do Documento | Tiago Samuel |
+| 22/03/2021 |  1.1   | Revisa e formata documento | Lucas Boaventura |
+| 27/04/2021 |  1.2   | Revisão do Documento | Tiago Samuel |
